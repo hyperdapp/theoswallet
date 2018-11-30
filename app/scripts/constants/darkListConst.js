@@ -1520,7 +1520,7 @@ const darklist = function() {
     },
     {
       address: "0xdafc2a2d4e070f863cfcb5887bc2516e05e18877",
-      comment: "Fake MyEtherWallet",
+      comment: "Fake Wallet",
       date: "2018-03-12"
     },
     {

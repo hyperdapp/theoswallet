@@ -33,7 +33,7 @@ X_HelpfulLinks                  :  'Helpful Links & FAQs',
 X_HelpfulLinks_1                :  'How to Access your Wallet',
 X_HelpfulLinks_2                :  'I lost my private key',
 X_HelpfulLinks_3                :  'My private key opens a different address',
-X_HelpfulLinks_4                :  'Migrating to/from MyEtherWallet',
+X_HelpfulLinks_4                :  'Migrating to/from Wallet',
 X_Network                       :  'Network', // aka "node" or "chain" - used in the dropdown in header
 X_Network_Custom                :  'Add Custom Network / Node',
 
@@ -99,31 +99,31 @@ EOS_02                          :  '**Register / Map your EOS Key**',
 EOS_03                          :  'Select `register`',
 EOS_04                          :  'Enter your **EOS Public Key** <--- CAREFUL! EOS PUBLIC KEY!',
 EOS_05                          :  'Fund EOS Contract on Send Page',
-EOS_06                          :  'Go to Send Ether & Tokens Page',
+EOS_06                          :  'Go to Send Coins & Tokens Page',
 EOS_07                          :  'Unlock same wallet you are unlocking here.',
 EOS_08                          :  'Send Amount you want to Contribute to `0xd0a6E6C54DbC68Db5db3A091B171A77407Ff7ccf`',
 EOS_09                          :  'Claim EOS Tokens',
 EOS_10                          :  'Select `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'Welcome to MyEtherWallet.com',
+ONBOARD_welcome_title           :  'Welcome to wallet.hyperdapp.org',
 ONBOARD_welcome_content__1      :  'Please take some time to understand this for your own safety. 🙏',
 ONBOARD_welcome_content__2      :  'Your funds will be stolen if you do not heed these warnings.',
 ONBOARD_welcome_content__3      :  'We know this click-through stuff is annoying. We are sorry.',
 ONBOARD_welcome_content__4      :  'What is MEW? ',
-ONBOARD_welcome_content__5      :  'MyEtherWallet is a free, open-source, client-side interface.',
+ONBOARD_welcome_content__5      :  'Wallet is a free, open-source, client-side interface.',
 ONBOARD_welcome_content__6      :  'We allow you to interact directly with the blockchain while remaining in full control of your keys &amp; your funds.',
 ONBOARD_welcome_content__7      :  '**You** and **only you** are responsible for your security.',
 ONBOARD_welcome_content__8      :  'We cannot recover your funds or freeze your account if you visit a phishing site or lose your private key.',
-ONBOARD_bank_title              :  'MyEtherWallet is not a Bank',
+ONBOARD_bank_title              :  'Wallet is not a Bank',
 ONBOARD_bank_content__1         :  'When you open an account with a bank or exchange, they create an account for you in their system.',
 ONBOARD_bank_content__2         :  'The bank keeps track of your personal information, account passwords, balances, transactions and ultimately your money.',
 ONBOARD_bank_content__3         :  'The bank charge fees to manage your account and provide services, like refunding transactions when your card gets stolen.',
 ONBOARD_bank_content__4         :  'The bank allows you to write a check or charge your debit card to send money, go online to check your balance, reset your password, and get a new debit card if you lose it.',
 ONBOARD_bank_content__5         :  'You have an account *with the bank or exchange* and they decide how much money you can send, where you can send it, and how long to hold on a suspicious deposit. All for a fee.',
 ONBOARD_welcome_title__alt      :  'Introduction',
-ONBOARD_interface_title         :  'MyEtherWallet is an Interface',
-ONBOARD_interface_content__1    :  'When you create an account on MyEtherWallet you are generating a cryptographic set of numbers: your private key and your public key (address).',
+ONBOARD_interface_title         :  'Wallet is an Interface',
+ONBOARD_interface_content__1    :  'When you create an account on Wallet you are generating a cryptographic set of numbers: your private key and your public key (address).',
 ONBOARD_interface_content__2    :  'The handling of your keys happens entirely on your computer, inside your browser.',
 ONBOARD_interface_content__3    :  'We never transmit, receive or store your private key, password, or other account information.',
 ONBOARD_interface_content__4    :  'We do not charge a transaction fee.',
@@ -137,8 +137,8 @@ ONBOARD_blockchain_title        :  'Wait, WTF is a Blockchain?',
 ONBOARD_blockchain_content__1   :  'The blockchain is like a huge, global, decentralized spreadsheet.',
 ONBOARD_blockchain_content__2   :  'It keeps track of who sent how many coins to whom, and what the balance of every account is.',
 ONBOARD_blockchain_content__3   :  'It is stored and maintained by thousands of people (miners) across the globe who have special computers.',
-ONBOARD_blockchain_content__4   :  'The blocks in the blockchain are made up of all the individual transactions sent from MyEtherWallet, MetaMask, Exodus, Mist, Geth, Parity, and everywhere else.',
-ONBOARD_blockchain_content__5   :  'When you see your balance on MyEtherWallet.com or view your transactions on [etherscan.io](https://etherscan.io), you are seeing data on the blockchain, not in our personal systems.',
+ONBOARD_blockchain_content__4   :  'The blocks in the blockchain are made up of all the individual transactions sent from Wallet, MetaMask, Exodus, Mist, Geth, Parity, and everywhere else.',
+ONBOARD_blockchain_content__5   :  'When you see your balance on wallet.hyperdapp.org or view your transactions on [etherscan.io](https://etherscan.io), you are seeing data on the blockchain, not in our personal systems.',
 ONBOARD_blockchain_content__6   :  'Again: **we are not a bank**.',
 ONBOARD_interface_title__alt    :  'MEW is an Interface',
 ONBOARD_why_title__alt          :  'But...why does this matter?',
@@ -155,19 +155,19 @@ ONBOARD_why_content__9          :  'If you lose your private key or password, no
 ONBOARD_why_content__10         :  'If you enter your private key on a phishing website, you will have **all your funds taken**.',
 ONBOARD_blockchain_title__alt   :  'WTF is a Blockchain?',
 ONBOARD_point_title__alt        :  'What\'s the Point of MEW then?',
-ONBOARD_whymew_title            :  'If MyEtherWallet can\'t do those things, what\'s the point?',
+ONBOARD_whymew_title            :  'If Wallet can\'t do those things, what\'s the point?',
 ONBOARD_whymew_content__1       :  'Because that is the point of decentralization and the blockchain.',
 ONBOARD_whymew_content__2       :  'You don\'t have to rely on your bank, government, or anyone else when you want to move your funds.',
 ONBOARD_whymew_content__3       :  'You don\'t have to rely on the security of an exchange or bank to keep your funds safe.',
 ONBOARD_whymew_content__4       :  'If you don\'t find these things valuable, ask yourself why you think the blockchain and cryptocurrencies are valuable. 😉',
 ONBOARD_whymew_content__5       :  'If you don\'t like the sound of this, consider using [Coinbase](https://www.coinbase.com/) or [Blockchain.info](https://blockchain.info/wallet/#/signup). They have more familiar accounts with usernames & passwords.',
-ONBOARD_whymew_content__6       :  'If you are scared but want to use MEW, [get a hardware wallet](https://kb.myetherwallet.com/hardware-wallets/hardware-wallet-recommendations.html)! These keep your keys secure.',
+ONBOARD_whymew_content__6       :  'If you are scared but want to use MEW, [get a hardware wallet](https://kb.wallet.hyperdapp.org/hardware-wallets/hardware-wallet-recommendations.html)! These keep your keys secure.',
 ONBOARD_why_title__alt          :  'But...why?',
 ONBOARD_secure_title            :  'How To Protect Yourself & Your Funds',
 ONBOARD_secure_1_title          :  'How To Protect Yourself from Phishers',
-ONBOARD_secure_1_content__1     :  'Phishers send you a message with a link to a website that looks just like MyEtherWallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.',
-ONBOARD_secure_1_content__2     :  'Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige) or the [MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.',
-ONBOARD_secure_1_content__3     :  'Always check the URL: `https://www.myetherwallet.com`.',
+ONBOARD_secure_1_content__1     :  'Phishers send you a message with a link to a website that looks just like Wallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.',
+ONBOARD_secure_1_content__2     :  'Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige) or the [Wallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.',
+ONBOARD_secure_1_content__3     :  'Always check the URL: `https://www.wallet.hyperdapp.org`.',
 ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `MYETHERWALLET INC` in green.',
 ONBOARD_secure_1_content__5     :  'Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.',
 ONBOARD_secure_1_content__6     :  'Always navigate directly to a site before you enter information. Do not enter information after clicking a link from a message or email.',
@@ -186,7 +186,7 @@ ONBOARD_secure_3_content__2     :  'Make a backup of your private key and passwo
 ONBOARD_secure_3_content__3     :  'Store this paper or USB drive in a different physical location. A backup is not useful if it is destroyed by a fire or flood along with your laptop.',
 ONBOARD_secure_3_content__4     :  'Do not store your private key in Dropbox, Google Drive, or other cloud storage. If that account is compromised, your funds will be stolen.',
 ONBOARD_secure_3_content__5     :  'If you have more than 1-week\'s worth of pay worth of cryptocurrency, get a hardware wallet. No excuses. It\'s worth it. I promise.',
-ONBOARD_secure_3_content__6     :  '[Even more Security Tips!](https://kb.myetherwallet.com/getting-started/protecting-yourself-and-your-funds.html)',
+ONBOARD_secure_3_content__6     :  '[Even more Security Tips!](https://kb.wallet.hyperdapp.org/getting-started/protecting-yourself-and-your-funds.html)',
 ONBOARD_secure_2_title__alt_2   :  'Screw Scams',
 ONBOARD_final_title__alt        :  'One more click & you\'re done! 🤘',
 ONBOARD_final_title             :  'Alright, I\'m done lecturing you!',
@@ -268,7 +268,7 @@ sidebar_AccountBal: 'موجودی حساب ',
 sidebar_TokenBal: 'موجودی توکن ها ',
 sidebar_Equiv: 'ارزش های معادل ',
 sidebar_TransHistory: 'سابقه تراکنش ها ',
-sidebar_donation: 'وبسایت MyEtherWallet یک سرویس متن باز و رایگان است که وقف امنیت و حریم خصوصی شما شده است. هرچه مقدار کمک های مالی بیشتر باشد، می توانیم زمان بیشتری برای ایجاد ویژگی های جدید، خواندن نظرات شما و ارائه محصولاتی که می خواهید داشته باشیم. ما تنها دو نفر هستیم که سعی در تغییر جهان داریم. کمک می کنید؟ ',
+sidebar_donation: 'وبسایت Wallet یک سرویس متن باز و رایگان است که وقف امنیت و حریم خصوصی شما شده است. هرچه مقدار کمک های مالی بیشتر باشد، می توانیم زمان بیشتری برای ایجاد ویژگی های جدید، خواندن نظرات شما و ارائه محصولاتی که می خواهید داشته باشیم. ما تنها دو نفر هستیم که سعی در تغییر جهان داریم. کمک می کنید؟ ',
 sidebar_donate: 'یا کمک مالی ',
 sidebar_thanks: 'با تشکر از شما ',
 
@@ -294,8 +294,8 @@ ADD_Ledger_2_Exp: 'برنامه Expanse را باز کنید (یا یک برنا
 ADD_Ledger_2_Ubq: 'برنامه Ubiq را باز کنید (یا یک برنامه قرارداد را) ',
 ADD_Ledger_3: 'تایید کنید که پشتیبانی مرورگر (Browser Support) از قسمت Settings فعالی است. ',
 ADD_Ledger_4: 'اگر هیچ حمایتی از طرف مرورگرها در تنظیمات پیدا نشد، مطمئن شوید که نسخه [Firmware شماره 1.2](https://www.ledgerwallet.com/apps/manager) را دارید. ',
-ADD_Ledger_0a: 'با یک کانکشن امن (SSL) دوباره MyEtherWallet را باز کنید. ',
-ADD_Ledger_0b: 'با استفاده از [Chrome](https://www.google.com/chrome/browser/desktop/) یا [Opera](https://www.opera.com/) دوباره MyEtherWallet را باز کنید. ',
+ADD_Ledger_0a: 'با یک کانکشن امن (SSL) دوباره Wallet را باز کنید. ',
+ADD_Ledger_0b: 'با استفاده از [Chrome](https://www.google.com/chrome/browser/desktop/) یا [Opera](https://www.opera.com/) دوباره Wallet را باز کنید. ',
 ADD_Ledger_scan: 'به Ledger Nano S وصل شوید. ',
 x_Trezor: 'TREZOR ',
 ADD_Trezor_scan: 'به TREZOR وصل شوید. ',
@@ -342,7 +342,7 @@ MYWAL_Edit_2: 'ویرایش کیف پول ',
 MYWAL_Name: 'نام کیف پول ',
 MYWAL_Content_1: 'اخطار! شما در حال پاک کردن کیف پول خود هستید. ',
 MYWAL_Content_2: 'پیش از پاک کردن آن مطمئن شوید که کلید خصوصی و (یا) فایل Keystore و رمزعبور را ذخیره کرده اید. ',
-MYWAL_Content_3: ',اگر در آینده بخواهید از این کیف پول با استفاده از  MyEtherWallet CX خود استفاده کنید، باید بصورت دستی دوباره آن را اضافه کنید. این کار با استفاده از key/JASON و رمزعبور انجام می شود.',
+MYWAL_Content_3: ',اگر در آینده بخواهید از این کیف پول با استفاده از  Wallet CX خود استفاده کنید، باید بصورت دستی دوباره آن را اضافه کنید. این کار با استفاده از key/JASON و رمزعبور انجام می شود.',
 
 /* Generate Wallets */
 
@@ -440,7 +440,7 @@ DEP_interface: 'ظاهر کاربری ساخته شده ',
 /* Node Switcher */
 NODE_Title: 'نود یا گره خود را بسازید. ',
 NODE_Subtitle: 'جهت وصل شدن به یک نود محلی... ',
-NODE_Warning: 'نود شما باید HTTPS باشد تا بتوانید از طریق MyEtherWallet.com به آن متصل شوید. می توانید [مخزن MyEtherWallet را دانلود و اجرا کنید](https://github.com/kvhnuke/etherwallet/releases/latest) تا بتوانید به هر نودی متصل شوید؛ یا می توانید از طریق  [LetsEncrypt](https://letsencrypt.org/) مدرک SSL رایگان دریافت کنید. ',
+NODE_Warning: 'نود شما باید HTTPS باشد تا بتوانید از طریق wallet.hyperdapp.org به آن متصل شوید. می توانید [مخزن Wallet را دانلود و اجرا کنید](https://github.com/kvhnuke/etherwallet/releases/latest) تا بتوانید به هر نودی متصل شوید؛ یا می توانید از طریق  [LetsEncrypt](https://letsencrypt.org/) مدرک SSL رایگان دریافت کنید. ',
 NODE_Name: 'نام نود ',
 NODE_Port: 'پورت نود ',
 NODE_CTA: 'ذخیره و استفاده نود کاستوم ',
@@ -507,7 +507,7 @@ ERROR_13                        :  '(error_14) کیف پول پیدا نشد A w
 ERROR_14                        :  '(error_15) Wallet not found.', // 14
 ERROR_15                        :  '(error_16) کیف پولی با این آدرس در حافظه وجود دارد، لطفا صفحه کیف پول خود را چک کنید. Whoops. It doesn\'t look like a proposal with this ID exists yet or there is an error reading this proposal.', // 15 - NOT USED
 ERROR_16                        :  '(error_17) برای پوشش هزینه سوخت باید حداقل 0.001 اتر در حساب خود داشته باشید. لطفا مقداری اتر اضافه کرده و دوباره امتحان کنید. A wallet with this address already exists in storage. Please check your wallets page.', // 16
-ERROR_17                        :  '(error_18) Insufficient balance. Your gas limit * gas price + amount to send exceeds your current balance. Send more ETH to your account or use the "Send Entire Balance" button. If you believe this is in error, try pressing generate again. Required (d+) and got: (d+). [Learn More.](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)', // 17
+ERROR_17                        :  '(error_18) Insufficient balance. Your gas limit * gas price + amount to send exceeds your current balance. Send more ETH to your account or use the "Send Entire Balance" button. If you believe this is in error, try pressing generate again. Required (d+) and got: (d+). [Learn More.](https://kb.wallet.hyperdapp.org/transactions/transactions-not-showing-or-pending.html)', // 17
 ERROR_18                        :  '(error_19) کاراکتر غیرمعتبر است All gas would be used on this transaction. This means you have already voted on this proposal or the debate period has ended.', // 18
 ERROR_19                        :  '(error_20) این توکن نامعتبر است Please enter a valid symbol', // 19
 ERROR_20                        :  '(error_21) Not a valid ERC-20 token', // 20
@@ -517,7 +517,7 @@ ERROR_23                        :  '(error_24) لطفا یک پورت معتبر
 ERROR_24                        :  '(error_25) لطفا آیدی زنجیره معتبر وارد کنید Please enter a valid port.', // 24
 ERROR_25                        :  '(error_26) لطفا ABI معتبر وارد کنید Please enter a valid chain ID.', // 25
 ERROR_26                        :  '(error_27) کمترین مقدار: 0.01 ، بیشترین مقدار: Please enter a valid ABI.', // 26
-ERROR_27                        :  '(error_28) برای دسترسی به این کیف پول در آینده به فایل Keystore و رمزعبور خود (یا کلید خصوصی) نیاز خواهید داشت. لطفا آن را ذخیره کنید و یک نسخه پشتیبان خارجی بسازید. اگر آن را ذخیره نکنید، هیچ راهی برای بازگرداندن کیف پول وجود ندارد. برای راهنمایی [صفحه کمک](https://www.myetherwallet.com/#help)  را مطالعه بفرمایید. Minimum amount: 0.01. Max amount:', // 27
+ERROR_27                        :  '(error_28) برای دسترسی به این کیف پول در آینده به فایل Keystore و رمزعبور خود (یا کلید خصوصی) نیاز خواهید داشت. لطفا آن را ذخیره کنید و یک نسخه پشتیبان خارجی بسازید. اگر آن را ذخیره نکنید، هیچ راهی برای بازگرداندن کیف پول وجود ندارد. برای راهنمایی [صفحه کمک](https://www.wallet.hyperdapp.org/#help)  را مطالعه بفرمایید. Minimum amount: 0.01. Max amount:', // 27
 ERROR_28                        :  '(error_29) لطفا شناسه و رمزعبور معتبر وارد کنید You need this `Keystore File + Password` or the `Private Key` (next page) to access this wallet in the future. ', // 28
 ERROR_29                        :  '(error_30) لطفا نام ENS معتبر وارد کنید Please enter a valid user and password.', // 29
 ERROR_30                        :  '(error_31) عبارت خصوصی نامعتبر است Please enter a valid name (7+ characters, limited punctuation)', // 30
@@ -525,30 +525,30 @@ ERROR_31                        :  '(error_32) Please enter a valid secret phras
 ERROR_32                        :  '(error_33) Could not connect to the node. Refresh your page, try a different node (top-right corner), check your firewall settings. If custom node, check your configs.', // 32
 ERROR_33                        :  '(error_34) The wallet you have unlocked does not match the owner\'s address.', // 33
 ERROR_34                        :  '(error_35) The name you are attempting to reveal does not match the name you have entered.', // 34
-ERROR_35                        :  '(error_36) Input address is not checksummed. <a href="https://kb.myetherwallet.com/addresses/what-does-checksummed-mean.html" target="_blank" rel="noopener noreferrer">What does that mean?</a>', // 35
+ERROR_35                        :  '(error_36) Input address is not checksummed. <a href="https://kb.wallet.hyperdapp.org/addresses/what-does-checksummed-mean.html" target="_blank" rel="noopener noreferrer">What does that mean?</a>', // 35
 ERROR_36                        :  '(error_37) Please enter a valid TX hash', // 36
 ERROR_37                        :  '(error_38) Please enter valid hex string. Hex only contains: 0x, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, a, b, c, d, e, f', // 37
 ERROR_38                        :  '(error_39) Offer must have either price or reserve set to more than 0', // 38
 ERROR_39                        :  '(error_40) Bid must be more than the specified minimum', // 39
 
-GETH_Balance                    :  '(geth-01) موجودی کافی نیست. Insufficient balance. Your gas limit * gas price + amount to send exceeds your current balance. Send more ETH to your account or use the "Send Entire Balance" button. If you believe this is in error, try pressing generate again. Required (d+) and got: (d+). [Learn More.](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)',
+GETH_Balance                    :  '(geth-01) موجودی کافی نیست. Insufficient balance. Your gas limit * gas price + amount to send exceeds your current balance. Send more ETH to your account or use the "Send Entire Balance" button. If you believe this is in error, try pressing generate again. Required (d+) and got: (d+). [Learn More.](https://kb.wallet.hyperdapp.org/transactions/transactions-not-showing-or-pending.html)',
 GETH_Cheap                      :  '(geth-02) قیمت سوخت برای پذیرفته شدن کم است. Gas price too low for acceptance. Try raising the gas price to 21 GWEI via the dropdown in top-right.',
-GETH_GasLimit                   :  '(geth-03) سوخت بیش از حد است. Exceeds block gas limit. Transaction cost exceeds current gas limit. Limit: (d+), got: (d+). Please lower the gas limit to 21000 (for sending) or 200000 (for sending tokens or contracts) and try again. [Learn More](https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html)',
-GETH_InsufficientFunds          :  '(geth-04) موجودی برای سوخت * قیمت + مقدار کافی نیست. Insufficient balance. Your gas limit * gas price + amount to send exceeds your current balance. Send more ETH to your account or use the "Send Entire Balance" button. If you believe this is in error, try pressing generate again. Required (d+) and got: (d+). [Learn More.](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)',
+GETH_GasLimit                   :  '(geth-03) سوخت بیش از حد است. Exceeds block gas limit. Transaction cost exceeds current gas limit. Limit: (d+), got: (d+). Please lower the gas limit to 21000 (for sending) or 200000 (for sending tokens or contracts) and try again. [Learn More](https://kb.wallet.hyperdapp.org/gas/what-is-gas-ethereum.html)',
+GETH_InsufficientFunds          :  '(geth-04) موجودی برای سوخت * قیمت + مقدار کافی نیست. Insufficient balance. Your gas limit * gas price + amount to send exceeds your current balance. Send more ETH to your account or use the "Send Entire Balance" button. If you believe this is in error, try pressing generate again. Required (d+) and got: (d+). [Learn More.](https://kb.wallet.hyperdapp.org/transactions/transactions-not-showing-or-pending.html)',
 GETH_IntrinsicGas               :  '(geth-05) سوخت اصلی کم است. Intrinsic gas too low. Try raising the gas price to 21 GWEI via the dropdown in top-right or the gas limit to 21000 (for sending) or 200000 (for sending tokens or contracts) and try again.',
 GETH_InvalidSender              :  '(geth-06) ارسال کننده نامعتبر است. Invalid sender.',
 GETH_NegativeValue              :  '(geth-07) مقدار منفی. Negative value.',
-GETH_Nonce                      :  "(geth-08) This TX's [nonce](https://kb.myetherwallet.com/transactions/what-is-nonce.html) is too low. Try incrementing the nonce by pressing the Generate button again, or [replace the pending transaction](https://kb.myetherwallet.com/transactions/check-status-of-ethereum-transaction.html).",
+GETH_Nonce                      :  "(geth-08) This TX's [nonce](https://kb.wallet.hyperdapp.org/transactions/what-is-nonce.html) is too low. Try incrementing the nonce by pressing the Generate button again, or [replace the pending transaction](https://kb.wallet.hyperdapp.org/transactions/check-status-of-ethereum-transaction.html).",
 GETH_NonExistentAccount         :  '(geth-09) حساب وجود ندارد و یا موجودی حساب کم است. Account does not exist or account balance too low',
 
-PARITY_AlreadyImported          :  "(parity-01) A transaction with the same hash was already imported. It was probably already broadcast. To avoid duplicate transactions, check your address on [etherscan.io](https://etherscan.io) & wait 10 minutes before attempting to send again. [Learn More.](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)",
-PARITY_GasLimitExceeded         :  "(parity-02) Transaction cost exceeds current gas limit. Limit: (d+), got: (d+). Please lower the gas limit to 21000 (for sending) or 200000 (for sending tokens or contracts) and try again. [Learn More](https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html)",
-PARITY_InsufficientBalance      :  "(parity-03) Insufficient balance. The account you tried to send transaction from does not have enough funds. If you believe this is in error, try using the 'Send Entire Balance' button, or pressing generate again. Required (d+) and got: (d+). [Learn More.](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)",
-PARITY_InsufficientGasPrice     :  "(parity-04) There is another transaction with same nonce in the queue, or the transaction fee is too low. Try incrementing the nonce by clicking the Generate button again. [Learn More.](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)",
-PARITY_InvalidGasLimit          :  "(parity-05) Supplied gas limit is beyond limit. Try lowering the gas limit to 21000. [Learn More.](https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html)",
-PARITY_LimitReached             :  "(parity-06) There are too many transactions in the queue. Your transaction was dropped due to limit. Try increasing the gas price. [Learn More.](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)",
-PARITY_Old                      :  "(parity-07) There is already a transaction with this [nonce](https://kb.myetherwallet.com/transactions/what-is-nonce.html). Try incrementing the nonce by pressing the Generate button again, or [replace the pending transaction](https://kb.myetherwallet.com/transactions/check-status-of-ethereum-transaction.html).",
-PARITY_TooCheapToReplace        :  "(parity-08) TX Fee is too low. It does not satisfy your node's minimal fee (minimal: (d+), got: (d+)). Try increasing the gas price and/or gas limit. [Learn More.](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)",
+PARITY_AlreadyImported          :  "(parity-01) A transaction with the same hash was already imported. It was probably already broadcast. To avoid duplicate transactions, check your address on [etherscan.io](https://etherscan.io) & wait 10 minutes before attempting to send again. [Learn More.](https://kb.wallet.hyperdapp.org/transactions/transactions-not-showing-or-pending.html)",
+PARITY_GasLimitExceeded         :  "(parity-02) Transaction cost exceeds current gas limit. Limit: (d+), got: (d+). Please lower the gas limit to 21000 (for sending) or 200000 (for sending tokens or contracts) and try again. [Learn More](https://kb.wallet.hyperdapp.org/gas/what-is-gas-ethereum.html)",
+PARITY_InsufficientBalance      :  "(parity-03) Insufficient balance. The account you tried to send transaction from does not have enough funds. If you believe this is in error, try using the 'Send Entire Balance' button, or pressing generate again. Required (d+) and got: (d+). [Learn More.](https://kb.wallet.hyperdapp.org/transactions/transactions-not-showing-or-pending.html)",
+PARITY_InsufficientGasPrice     :  "(parity-04) There is another transaction with same nonce in the queue, or the transaction fee is too low. Try incrementing the nonce by clicking the Generate button again. [Learn More.](https://kb.wallet.hyperdapp.org/transactions/transactions-not-showing-or-pending.html)",
+PARITY_InvalidGasLimit          :  "(parity-05) Supplied gas limit is beyond limit. Try lowering the gas limit to 21000. [Learn More.](https://kb.wallet.hyperdapp.org/gas/what-is-gas-ethereum.html)",
+PARITY_LimitReached             :  "(parity-06) There are too many transactions in the queue. Your transaction was dropped due to limit. Try increasing the gas price. [Learn More.](https://kb.wallet.hyperdapp.org/transactions/transactions-not-showing-or-pending.html)",
+PARITY_Old                      :  "(parity-07) There is already a transaction with this [nonce](https://kb.wallet.hyperdapp.org/transactions/what-is-nonce.html). Try incrementing the nonce by pressing the Generate button again, or [replace the pending transaction](https://kb.wallet.hyperdapp.org/transactions/check-status-of-ethereum-transaction.html).",
+PARITY_TooCheapToReplace        :  "(parity-08) TX Fee is too low. It does not satisfy your node's minimal fee (minimal: (d+), got: (d+)). Try increasing the gas price and/or gas limit. [Learn More.](https://kb.wallet.hyperdapp.org/transactions/transactions-not-showing-or-pending.html)",
 
 
 SUCCESS_1: 'آدرس معتبر است ',
@@ -581,14 +581,14 @@ TranslatorAddr_5: 'TranslatorAddr_5',
 // "/* Help - Nothing after this point has to be translated. If you feel like being extra helpful, go for it. */"
 
 HELP_Warning: 'اگر قبل از 31دسامبر سال 2015 کیف پولی ساخته اید یا مخزن را دانلود کردید، لطفا لطفا کیف پول های خود را چک کنید و نسخه جدید مخزن را دانلود کنید. برای جزئیات کلیک کنید. ',
-HELP_Desc: 'آیا سوال دیگری دارید؟ [با ما در ارتباط باشید](mailto:support@myetherwallet.com). ما به سوال شما در همین صفحه پاسخ خواهیم داد تا دیگران نیز از آن استفاده کنند. ',
+HELP_Desc: 'آیا سوال دیگری دارید؟ [با ما در ارتباط باشید](mailto:support@wallet.hyperdapp.org). ما به سوال شما در همین صفحه پاسخ خواهیم داد تا دیگران نیز از آن استفاده کنند. ',
 HELP_Remind_Title: 'یادآوری ',
-HELP_Remind_Desc_1: 'بخش هایی مثل Ethereum، MyEtherWallet.com و My EtherWallet CX و برخی دیگر از کتابخانه های زیرساختی که بر پایه Javascript است دائما در حال توسعه هستند. با اینکه ما آن ها را بطور کامل تست کردیم و ده ها هزار کیف پول با موفقیت در سراسر دنیا ساخته شده، همیشه احتمال اینکه اتفاقی غیرمنتظره رخ دهد و باعث از دست رفتن اتر شما شود وجود دارد. لطفا مراقب باشید و بیش از آنچه که در صورت از دست دادن آن برایتان مشکلی پیش نیاید سرمایه گذاری نکنید. اگر اتفاقی افتاد، بسیار متاسفیم، اما **ما مسئول از دست رفتن اتر نیستیم**. ',
-HELP_Remind_Desc_2: 'گزینه هایی مثل MyEtherWallet.com و MyWtherWallet CX ""کیف پول وبی"" نیستند. شما یک حساب کاربری نمی سازید و اترهای خود را جهت نگهداری از آن ها به ما نمی دهید. هیچ داده ای از کامپیوتر یا مرورگر شما خارج نمی شود. ما کار را برای شما جهت ایجاد، ذخیره، دسترسی به اطلاعات و تعامل با بلاکچیین آسان می کنیم. ',
+HELP_Remind_Desc_1: 'بخش هایی مثل Ethereum، wallet.hyperdapp.org و My EtherWallet CX و برخی دیگر از کتابخانه های زیرساختی که بر پایه Javascript است دائما در حال توسعه هستند. با اینکه ما آن ها را بطور کامل تست کردیم و ده ها هزار کیف پول با موفقیت در سراسر دنیا ساخته شده، همیشه احتمال اینکه اتفاقی غیرمنتظره رخ دهد و باعث از دست رفتن اتر شما شود وجود دارد. لطفا مراقب باشید و بیش از آنچه که در صورت از دست دادن آن برایتان مشکلی پیش نیاید سرمایه گذاری نکنید. اگر اتفاقی افتاد، بسیار متاسفیم، اما **ما مسئول از دست رفتن اتر نیستیم**. ',
+HELP_Remind_Desc_2: 'گزینه هایی مثل wallet.hyperdapp.org و MyWtherWallet CX ""کیف پول وبی"" نیستند. شما یک حساب کاربری نمی سازید و اترهای خود را جهت نگهداری از آن ها به ما نمی دهید. هیچ داده ای از کامپیوتر یا مرورگر شما خارج نمی شود. ما کار را برای شما جهت ایجاد، ذخیره، دسترسی به اطلاعات و تعامل با بلاکچیین آسان می کنیم. ',
 HELP_Remind_Desc_3: 'اگر رمز عبور و کلید خصوصی خود را ذخیره نکنید، هیچ راهی برای دسترسی دوباره به کیف پول خود و سرمایه موجود در آن نخواهید داشت. از آن ها در مکان های فیزیکی مختلف (نه فقط در کامپیوتر خود) چندین نسخه پشتیبان تهیه کنید. ',
 
 HELP_0_Title: 'سوال 0: من تازه کار هستم. چگونه شروع کنم؟ ',
-HELP_0_Desc_1: 'وبسایت MyEtherWallet به شما امکان ساخت کیف پول های جدید جهت ذخیره اتر (Ether)خود در آن را برای شما فراهم می کند تا دیگر نیازی به ذخیره سرمایه خود در یک صرافی نداشته باشید. این فرآیند بطور کامل بر روی کامپیوتر شما، و نه بر روی سرورها، انجام می شود. به همین خاطر زمانی که یک کیف پول جدید می سازید، **خودتان مسئول ایجاد یک نسخه پشتیبان از آن هستید**. ',
+HELP_0_Desc_1: 'وبسایت Wallet به شما امکان ساخت کیف پول های جدید جهت ذخیره اتر (Ether)خود در آن را برای شما فراهم می کند تا دیگر نیازی به ذخیره سرمایه خود در یک صرافی نداشته باشید. این فرآیند بطور کامل بر روی کامپیوتر شما، و نه بر روی سرورها، انجام می شود. به همین خاطر زمانی که یک کیف پول جدید می سازید، **خودتان مسئول ایجاد یک نسخه پشتیبان از آن هستید**. ',
 HELP_0_Desc_2: 'ایجاد یک کیف پول جدید ',
 HELP_0_Desc_3: 'از کیف پول نسخه پشتیبان تهیه کنید ',
 HELP_0_Desc_4: 'تایید کنید که به این کیف پول جدید دسترسی دارید و تمام اطلاعات لازم را ذخیره کرده اید. ',
@@ -622,7 +622,7 @@ HELP_2b_Desc_8: 'به صفحه ""مشاهده اطلاعات کیف پول"" ب�
 HELP_3_Title: 'سوال 3: چگونه این موضوع که به کیف پول خود دسترسی دارم را تایید کنم؟ ',
 HELP_3_Desc_1: 'حتما **قبل از آنکه به کیف پول جدید خود اتر ارسال کنید**، مطمئن شوید که به آن دسترسی دارید. ',
 HELP_3_Desc_2: 'به صفحه ""مشاهده اطلاعات کیف پول"" بروید. ',
-HELP_3_Desc_3: 'به صفحه ""مشاهده اطلاعات کیف پول"" در MyetherWallet.com بروید. ',
+HELP_3_Desc_3: 'به صفحه ""مشاهده اطلاعات کیف پول"" در wallet.hyperdapp.org بروید. ',
 HELP_3_Desc_4: 'فایل کیف پول و یا کلید خصوصی را انتخاب کنید و کیف پول خود را باز کنید. ',
 HELP_3_Desc_5: 'HELP_3_Desc_5',
 HELP_3_Desc_6: 'دکمه ""گشودن کیف پول"" را انتخاب کنید. ',
@@ -643,7 +643,7 @@ HELP_4_Desc_11: 'در زیر آن، بر روی دکمه آبی ""ارسال ت�
 HELP_4_Desc_12: 'صفحه ای ظاهر می شود. در آن صفحه باید تایید کنید که میزان و آدرسی که می خواهید به آن اتر ارسال کنید صحیح است. سپس گزینه ""بله مطمئن هستم. تراکنش را انجام بده "" را انتخاب کنید. ',
 HELP_4_Desc_13: 'تراکنش انجام خواهد شد و TX ID نمایش داده می شود. می توانید با کلیک بر روی TX ID آن را بر روی بلاکچین ببینید. ',
 
-HELP_4CX_Title: 'سوال 4: چگونه با کیف پول MyEtherWallet خود اتر ارسال کنم؟ ',
+HELP_4CX_Title: 'سوال 4: چگونه با کیف پول Wallet خود اتر ارسال کنم؟ ',
 HELP_4CX_Desc_1: 'ابتدا باید یک کیف پول را اضافه کنید. وقتی این کار را انجام دادید دو گزینه پیش رو خواهید داشت: گزینه ""ارسال سریع"" که از طریق آیکون افزونه Chrome Extension کار می کند و گزینه دیگر که از صفحه ""ارسال اتر و توکن"" به آن دسترسی خواهید داشت. ',
 HELP_4CX_Desc_2: 'HELP_4CX_Desc_2',
 HELP_4CX_Desc_3: 'بر روی آیکون Chrome Extension کلیک کنید. ',
@@ -657,11 +657,11 @@ HELP_4CX_Desc_10: 'رمز عبور این کیف پول را وارد کنید. 
 HELP_4CX_Desc_11: 'بر روی گزینه ""ارسال تراکنش"" کلیک کنید. ',
 HELP_4CX_Desc_12: 'استفاده از صفحه ""ارسال اتر و توکن ها"" ',
 
-HELP_5_Title: 'سوال 5: چگونه از MyEtherWallet.com بصورت آفلاین استفاده کنم؟ ',
-HELP_5_Desc_1: 'شما می توانید MyEtherWallet.com را به جای اجرا از روی سرورهای GitHub، روی کامپیوتر خود اجرا کنید. شما می توانید یک کیف پول را کاملا بصورت آفلاین بسازید و تراکنشی را از طریق صفحه ""تراکنش آفلاین"" ارسال کنید. ',
-HELP_5_Desc_7: 'حال MyEtherWallet.com بطور کامل در حال اجرا شدن از روی کامپیوتر شماست. ',
-HELP_5_Desc_8: 'در صورتی که با این موضوع آشنایی ندارید بهتر است بدانید که باید تمام پوشه (فولدر) را نگهداری کنید تا بتوانید وبسایت را اجرا کنید (نه فقط index.html را). به چیزی در این پوشه دست نزنید و یا جابجا نکنید. اگر یک نسخه پشتیبان از کد مخزن MyEtherWallet را برای آینده نگهداری می کنید پیشنهاد می شود که تنها ZIP را نگهداری کنید تا از اینکه تمام محتوای پوشه درست ذخیره می شوند اطمینان حاصل کنید. ',
-HELP_5_Desc_9: 'از آنجایی که ما بطور مداوم در حال بروزرسانی MyEtherWallet.com هستیم، پیشنهاد می کنیم که نسخه ذخیره شده خود را بصورت دوره ای بروزرسانی کنید. ',
+HELP_5_Title: 'سوال 5: چگونه از wallet.hyperdapp.org بصورت آفلاین استفاده کنم؟ ',
+HELP_5_Desc_1: 'شما می توانید wallet.hyperdapp.org را به جای اجرا از روی سرورهای GitHub، روی کامپیوتر خود اجرا کنید. شما می توانید یک کیف پول را کاملا بصورت آفلاین بسازید و تراکنشی را از طریق صفحه ""تراکنش آفلاین"" ارسال کنید. ',
+HELP_5_Desc_7: 'حال wallet.hyperdapp.org بطور کامل در حال اجرا شدن از روی کامپیوتر شماست. ',
+HELP_5_Desc_8: 'در صورتی که با این موضوع آشنایی ندارید بهتر است بدانید که باید تمام پوشه (فولدر) را نگهداری کنید تا بتوانید وبسایت را اجرا کنید (نه فقط index.html را). به چیزی در این پوشه دست نزنید و یا جابجا نکنید. اگر یک نسخه پشتیبان از کد مخزن Wallet را برای آینده نگهداری می کنید پیشنهاد می شود که تنها ZIP را نگهداری کنید تا از اینکه تمام محتوای پوشه درست ذخیره می شوند اطمینان حاصل کنید. ',
+HELP_5_Desc_9: 'از آنجایی که ما بطور مداوم در حال بروزرسانی wallet.hyperdapp.org هستیم، پیشنهاد می کنیم که نسخه ذخیره شده خود را بصورت دوره ای بروزرسانی کنید. ',
 
 HELP_5CX_Title: 'سوال 5: چگونه می توانم این افزونه را به جای نصب کردن از Chrome Store، از مخزن نصب کنم؟ ',
 HELP_5CX_Desc_2: 'بر روی chrome-extension-vX.X.X.X.zip کلیک کرده و آن را از حالت فشرده خارج کنید. ',
@@ -691,15 +691,15 @@ HELP_7_Desc_14: 'یک صفحه ظاهر می شود. صحت مقدار و آدر
 HELP_7_Desc_15: 'تراکنش ثبت خواهد شد. TX ID نمایش داده می شود. می توانید بر روی TX ID جهت مشاهده آن بر روی بلاکچین کلیک کنید. ',
 
 HELP_8_Title: 'سوال 8: اگر سایت شما از کار بیافتد چه اتفاقی میافتد؟ ',
-HELP_8_Desc_1: 'وبسایت MyEtherWallet یک کیف پول وبی نیست. نیازی نیست که وارد شوید (لاگین کنید) و هیچ چیزی بر روی سرورهای ما ذخیره نمی شود. این تنها یک ظاهر است که به شما امکان برقراری ارتباط با بلاکچین را می دهد. ',
-HELP_8_Desc_2: 'اگر  MyEtherWallet.com از کار بیافتد، راه دیگری (مثل geth یا Ethereum Wallet/ Mist) وجود دارد که کاری که ما انجام می دهیم را انجام دهد. اما نیازی نیست که اترهای خود را از  MyEtherWallet بیرون بیاورید چرا که آن ها در  MyEtherWallet نیستند، بلکه در هر کیف پولی ست که شما از طریق سایت ما ساخته باشید. ',
+HELP_8_Desc_1: 'وبسایت Wallet یک کیف پول وبی نیست. نیازی نیست که وارد شوید (لاگین کنید) و هیچ چیزی بر روی سرورهای ما ذخیره نمی شود. این تنها یک ظاهر است که به شما امکان برقراری ارتباط با بلاکچین را می دهد. ',
+HELP_8_Desc_2: 'اگر  wallet.hyperdapp.org از کار بیافتد، راه دیگری (مثل geth یا Ethereum Wallet/ Mist) وجود دارد که کاری که ما انجام می دهیم را انجام دهد. اما نیازی نیست که اترهای خود را از  Wallet بیرون بیاورید چرا که آن ها در  Wallet نیستند، بلکه در هر کیف پولی ست که شما از طریق سایت ما ساخته باشید. ',
 HELP_8_Desc_3: 'می توانید فایل های کلید خصوصی رمزنگاری نشده و Geth/Mist Format (رمزنگاری شده) را مستقیما به geth/ Ethereum Wallet/ Mist انتقال دهید. به سوال شماره 12 مراجعه کنید. ',
-HELP_8_Desc_4: 'علاوه بر این، امکان اینکه  MyEtherWallet را از کار بیاندازیم نزدیک به صفر است. ازآنجایی که هیچ اطلاعاتی را ذخیره نمی کنیم در نتیجه هیچ هزینه نگهداری هم برای ما ندارد. اگر دامنه را به هر دلیلی از کار بیاندازیم، بصورت عمومی در آدرس های زیر در دسترس خواهد بود. [https://github.com/kvhnuke/etherwallet](https://github.com/kvhnuke/etherwallet/tree/gh-pages) . می توانید از آنجا ZIP را دانلود کنید و آن را بصورت محلی راه اندازی و اجرا کنید. ',
+HELP_8_Desc_4: 'علاوه بر این، امکان اینکه  Wallet را از کار بیاندازیم نزدیک به صفر است. ازآنجایی که هیچ اطلاعاتی را ذخیره نمی کنیم در نتیجه هیچ هزینه نگهداری هم برای ما ندارد. اگر دامنه را به هر دلیلی از کار بیاندازیم، بصورت عمومی در آدرس های زیر در دسترس خواهد بود. [https://github.com/kvhnuke/etherwallet](https://github.com/kvhnuke/etherwallet/tree/gh-pages) . می توانید از آنجا ZIP را دانلود کنید و آن را بصورت محلی راه اندازی و اجرا کنید. ',
 
-HELP_8CX_Title: 'سوال 8: اگر  MyEtherWallet CX ناپدید شود چه اتفاقی میافتد؟ ',
+HELP_8CX_Title: 'سوال 8: اگر  Wallet CX ناپدید شود چه اتفاقی میافتد؟ ',
 HELP_8CX_Desc_1: 'اول از همه اینکه تمام داده ها بر روی کامپیوتر شما ذخیره شده است و نه سرورهای ما. زمانی که به افزونه Chrome Extension نگاه می کنید، چیزی که روی سرورهای ما ذخیره شده باشد نمی بینید، بلکه تمام آن بر روی کامپیوتر خود شما ذخیره شده است. ',
-HELP_8CX_Desc_2: 'مهم است در نظر داشته باشید که برای هر کیف پولی که با  MyEtherWallet CX ساخته می شود، از تمام اطلاعات خود یک نسخه پشتیبان تهیه کنید. در اینصورت اگر هر اتفاقی برای  MyEtherWallet CX یا کامپیوترتان بیافتد، همچنان اطلاعات لازم جهت دسترسی به اترهای خود را خواهید داشت. به سوال 2 الف برای چگونگی تهیه نسخه پشتیبان از کیف پول مراجعه کنید. ',
-HELP_8CX_Desc_3: 'اگر به هر دلیلی  MyEtherWallet CX از Chrome Store ناپدید شد، می توانید سورس (کد منبع) آن را از Github پیدا کرده و بصورت دستی اجرا کنید. به سوال شماره 5 مراجعه کنید. ',
+HELP_8CX_Desc_2: 'مهم است در نظر داشته باشید که برای هر کیف پولی که با  Wallet CX ساخته می شود، از تمام اطلاعات خود یک نسخه پشتیبان تهیه کنید. در اینصورت اگر هر اتفاقی برای  Wallet CX یا کامپیوترتان بیافتد، همچنان اطلاعات لازم جهت دسترسی به اترهای خود را خواهید داشت. به سوال 2 الف برای چگونگی تهیه نسخه پشتیبان از کیف پول مراجعه کنید. ',
+HELP_8CX_Desc_3: 'اگر به هر دلیلی  Wallet CX از Chrome Store ناپدید شد، می توانید سورس (کد منبع) آن را از Github پیدا کرده و بصورت دستی اجرا کنید. به سوال شماره 5 مراجعه کنید. ',
 
 HELP_9_Title: 'سوال 9: آیا صفحه ""ارسال اتر و توکن"" آفلاین است؟ ',
 HELP_9_Desc_1: ',خیر. برای بدست آوردن قیمت سوخت فعلی نیاز به اینترنت دارد',
@@ -717,8 +717,8 @@ HELP_10_Desc_9: 'دکمه ""ارسال تراکنش امضا شده"" را بز�
 HELP_10_Desc_10: 'HELP_10_Desc_10',
 HELP_10_Desc_11: 'HELP_10_Desc_11',
 
-HELP_12_Title: 'سوال 12: چگونه کیف پولی که با MyEtherWallet ساخته ام را به geth یا Ethereum Wallet یا Mist منتقل کنم؟ ',
-HELP_12_Desc_1: ',با استفاده از فایل Geth یا Mist JSON از MyEtherWallet نسخه 2 به بالا.',
+HELP_12_Title: 'سوال 12: چگونه کیف پولی که با Wallet ساخته ام را به geth یا Ethereum Wallet یا Mist منتقل کنم؟ ',
+HELP_12_Desc_1: ',با استفاده از فایل Geth یا Mist JSON از Wallet نسخه 2 به بالا.',
 HELP_12_Desc_2: 'به صفحه ""مشاهده اطلاعات کیف پول"" بروید/ ',
 HELP_12_Desc_3: 'قفل کیف پول خود را با استفاده از کلید خصوصی **رمزنگاری شده** و یا فایل JSON خود باز کنید. ',
 HELP_12_Desc_4: 'به صفحه ""کیف پول های من"" بروید. ',
@@ -751,8 +751,8 @@ HELP_12_Desc_28: 'دفعه بعد که برنامه Ethereum Wallet را باز 
 HELP_13_Title: 'سوال 13: این جمه به چه معناست؟ : ""سرمایه کافی نیست. حسابی که سعی در ارسال تراکنش از طریق آن را دارید به اندازه کافی سرمایه ندارد. به XXXXXXXXXXXXXXXXXXX و تنها XXXXXXXXXXXXXXXX دارد"". ',
 HELP_13_Desc_1: 'این بدان معناست که در حساب خود به اندازه کافی اتر (ٍETH) جهت پرداخت هزینه سوخت را ندارید. هر تراکنش (که شامل توکن و تراکنش های قراردادی نیز می شود) به سوخت نیاز دارد و این سوخت با اتر پرداخت می شود. عددی که نمایش داده شد، مقداری ست که برای پوشش هزینه تراکنش در Wei مورد نیاز است. آن عدد را بر `1000000000000000000` تقسیم کنید و از مقدار اتری که می خواستید ارسال کنید کم کنید (اگر می خواستید که اتر ارسال کنید). این کار به شما میزان اتری که برای انجام تراکنش باید به آن حساب بفرستید را مشخص می کند. ',
 
-HELP_14_Title: 'سوال 14: برخی از سایت ها ساخت رندوم یا تصادفی کلیدهای خصوصی را بر اساس حرکت موس انجام می دهند. سایت MyEtherWallet.com این کار را انجام نمی دهد. آیا تولید تصادفی اعداد برای MyEtherWallet امن است؟ ',
-HELP_14_Desc_1: 'روش ساخت بر اساس حرکت موس هوشمندانه است و می دانیم که  چرا مردم آن را دوست دارند، اما واقعیت این است که window.crypto ؟؟؟؟؟ بیشتری را نسبت به حرکات موس شما ارائه می کنند. حرکات موس ناامن نیستند اما ما (و بسیاری از آزمایش های کریپتو دیگر) در window.crypto باور بیشتری داریم. بعلاوه اینکه از MyEtherWallet.com می توان در دستگاه های لمسی نیز استفاده کرد. در [اینجا می توانید بحث بین یک نویسنده عصبانی در reddit و Vitalik Buterin درباره حرکات موس و window.crypto را ببینید](https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html#dfn-GlobalCrypto). ',
+HELP_14_Title: 'سوال 14: برخی از سایت ها ساخت رندوم یا تصادفی کلیدهای خصوصی را بر اساس حرکت موس انجام می دهند. سایت wallet.hyperdapp.org این کار را انجام نمی دهد. آیا تولید تصادفی اعداد برای Wallet امن است؟ ',
+HELP_14_Desc_1: 'روش ساخت بر اساس حرکت موس هوشمندانه است و می دانیم که  چرا مردم آن را دوست دارند، اما واقعیت این است که window.crypto ؟؟؟؟؟ بیشتری را نسبت به حرکات موس شما ارائه می کنند. حرکات موس ناامن نیستند اما ما (و بسیاری از آزمایش های کریپتو دیگر) در window.crypto باور بیشتری داریم. بعلاوه اینکه از wallet.hyperdapp.org می توان در دستگاه های لمسی نیز استفاده کرد. در [اینجا می توانید بحث بین یک نویسنده عصبانی در reddit و Vitalik Buterin درباره حرکات موس و window.crypto را ببینید](https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html#dfn-GlobalCrypto). ',
 
 HELP_15_Title: 'سوال 15: چرا حسابی که همین الان ساخته ام در مرورگر بلاکچین (bllockchain explorer) دیده نمی شود؟ (برای مثال در etherchain یا etherscan) ',
 HELP_15_Desc_1: 'HELP_15_Desc_1',
@@ -781,19 +781,19 @@ HELP_21_Desc_6: 'اگر چیزی درباره بیتکوین می دانید، �
 HELP_21_Desc_7: 'این عددها هیچ ربطی با فناوری دستگاه ها ندارند؛ مقدارها بیشینه یا ماکزیمی هستند که از نظر ترمودینامیکی مجاز است و شدیده بر این موضوع دلالت دارد که حمله های نیروی کور یا brute force به کلیدهای 256بیتی تا زمانی که کامپیوترهایی با چیزی غیر از چیزهای فعلی ساخته شود و چیزی غیر از فضا را اشغال کند ساخته شوند غیر عملی است. ',
 HELP_21_Desc_8: 'این موضوع نشانگر آن است که کلیدها بصورت کاملا تصادفی و با آنتروپی کافی ساخته می شوند. کلیدهایی که اینجا ساخته می شوند همانند Jaxx و Mist/geth از این معیار پیروی می کنند. کیف پول های اتریوم همگی خوب هستند. کلیدهای که توسط ذهن انسان ساخته می شوند خوب نیستند چرا که ذهن انسان توان ایجاد یک دانه یا رمز کاملا تصدفی را ندارد. مشکلاتی در زمینه آنتروپی و یا اینکه دانه ها بطور کاملا تصدفی ساخته نشدند در دنیای بیتکوین وجود داشته که موضوعی ست که باید بعدا راجع به آن صحبت کرد. ',
 
-HELP_SecCX_Title: 'امنیت - MyEtherWallet CX ',
+HELP_SecCX_Title: 'امنیت - Wallet CX ',
 HELP_SecCX_Desc_1: 'این افزونه (extension) اطلاعات من را کجا ذخیره می کند؟ ',
 HELP_SecCX_Desc_2: 'اطلاعاتی که در این Chrome Extension ذخیرنگهداری می کنید از طریق [chrome.storage](http://chrome.storage/) ذخیره می شود. این دقیقا همان جایی ست که رمزعبورهایی که در مرورگر Chrome ذخیره می کنید در آن ذخیره می شود. ',
 HELP_SecCX_Desc_3: 'چه اطلاعاتی ذخیره می شود؟ ',
 HELP_SecCX_Desc_4: 'آدرس، نام اختصاری و کلید خصوصی در chrome.storage ذخیره می شود. کلید خصوصی با استفاده از رمزعبوری که در زمان اضافه کردن کیف پول انتخاب کردید رمزنگاری شده است. نام اختصاری و کیف پول رمزنگاری نشده است. ',
 HELP_SecCX_Desc_5: 'چرا نام اختصاری و کیف پول رمزنگاری نمی شوند؟ ',
-HELP_SecCX_Desc_6: 'اگر می خواستیم این موارد را رمزنگاری کنیم، هربار که می خواستید موجودی حساب یا نام های اختصاری را ببینید مجبور به وارد کردن رمزعبور می شدید. اگر این موضوع برایتان مهم است، پیشنهاد می کنیم از MyEtherWallet.com به جای این Chrome Extension استفاده کنید. ',
+HELP_SecCX_Desc_6: 'اگر می خواستیم این موارد را رمزنگاری کنیم، هربار که می خواستید موجودی حساب یا نام های اختصاری را ببینید مجبور به وارد کردن رمزعبور می شدید. اگر این موضوع برایتان مهم است، پیشنهاد می کنیم از wallet.hyperdapp.org به جای این Chrome Extension استفاده کنید. ',
 
 HELP_Sec_Title: 'امنیت ',
 HELP_Sec_Desc_1: 'ممکن است یکی از اولین سوالاتی که به ذهنتان می رسد این باشد که ""چرا باید به این افراد اعتماد کنم؟""؛ این سوال خوبی ست که ادامه می توانید جوابی برای آن جهت کم کردن ترس خود پیدا کنید. ',
 HELP_Sec_Desc_2: 'ما از آگوست 2015 در حال فعالیت هستیم. اگر در [reddit](https://www.reddit.com/search?q=myetherwallet) بدنبال myetherwallet بگردید، تعداد زیادی از کاربران را خواهید دید که از سرویس ما با موفقیت استفاده کرده اند.  ',
 HELP_Sec_Desc_3: 'ما نمی خواهیم که پول شما را بگیریم و یا کلیدهای خصوصی شما را بدزدیم. هیچ کد خرابی در این سایت وجود ندارد. در واقع صفحه های ""ایجاد کیف پول"" در سمت کاربر هستند (client-side). این بدان معناست که تمام کدها بر روی کامپیوتر خود شما اجرا می شود و هرگز جای دیگری ارسال و یا ذخیره نمی شود. ',
-HELP_Sec_Desc_4: 'این سایت از طریق GitHub ارائه می شود، می توانید کد اصلی یا Source Code آن را در این آدرس ببینید:  [https://github.com/kvhnuke/etherwallet/tree/gh-](https://github.com/kvhnuke/etherwallet/tree/gh-pages) و [https://www.myetherwallet.com](https://www.myetherwallet.com). ',
+HELP_Sec_Desc_4: 'این سایت از طریق GitHub ارائه می شود، می توانید کد اصلی یا Source Code آن را در این آدرس ببینید:  [https://github.com/kvhnuke/etherwallet/tree/gh-](https://github.com/kvhnuke/etherwallet/tree/gh-pages) و [https://www.wallet.hyperdapp.org](https://www.wallet.hyperdapp.org). ',
 HELP_Sec_Desc_5: 'برای ایجاد کیف پول، می توانید کد منبع را دانلود کنید و آن را بصورت محلی اجرا کنید. به سوال شماره 5 مراجعه کنید. (https://github.com/kvhnuke/etherwallet/releases/latest) ',
 HELP_Sec_Desc_6: 'یک کیف پول تستی بسازید و به بررسی فعالیت شبکه بپردازید. ساده ترین راه این است که بر روی سایت کلیک راست کرده و گزینه ""inspect element"" را انتخاب کنید. به قسمت ""Network"" بروید. یک کیف پول آزمایشی بسازید. خواهید دید که هیچ فعالیت شبکه ای در آن جا رخ نمی دهد. خواهید دید که اتفاقی در حال رخداد است که همانند داده هایی مثل عکس یا گیف هستند. آن ها کدهای QR هستند که در حال ساخته شدن بر روی کامپیوتر شما و توسط کامپیوتر شما هستند. هیچ بایتی جابجا نمی شود. ',
 HELP_Sec_Desc_8: 'اگر با استفاده از این ابزار راحت نیستید آن را کنار بگذارید. ما این ابزار را بعنوان یک راه موثر جهت ایجاد کیف پول و تراکنش بدون نیاز به اجرای یک فول نود یا رفتن به خط فرمان درست کرده ایم. در هر صورت اگر سوالی ذهن شما را به خود مشغول کرده می توانید با ما در ارتباط باشید و ما نیز در اولین فرصت پاسخگوی شما خواهیم بود. با تشکر از توجه شما ',

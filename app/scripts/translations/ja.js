@@ -33,7 +33,7 @@ X_HelpfulLinks                  :  '役立つリンクとよくある問答集',
 X_HelpfulLinks_1                :  'お財布の操作方法', /*How to Access your Wallet*/
 X_HelpfulLinks_2                :  '秘密鍵を紛失してしまいました', /*I lost my private key*/
 X_HelpfulLinks_3                :  '秘密鍵が別のアドレスを解錠しました', /*My private key opens a different address*/
-X_HelpfulLinks_4                :  'MyEtherWallet から、または MyEtherWallet へ移行するには', /*Migrating to/from MyEtherWallet*/
+X_HelpfulLinks_4                :  'Wallet から、または Wallet へ移行するには', /*Migrating to/from Wallet*/
 X_Network                       :  'ノード', // aka "node" or "chain" - used in the dropdown in header  /*Network*/
 X_Network_Custom                :  'カスタムネットワークやノードを追加', /*Add Custom Network / Node*/
 
@@ -104,48 +104,48 @@ EOS_02                          :  '**EOSの鍵を登録／転写する**', /* *
 EOS_03                          :  '`register`を選択する', /*Select `register`*/
 EOS_04                          :  '**EOSの公開鍵**を入力する　<---　注意！ 「EOSの公開鍵」です！', /*Enter your **EOS Public Key** <--- CAREFUL! EOS PUBLIC KEY!*/
 EOS_05                          :  '送出ページでEOSの契約に入金する', /*Fund EOS Contract on Send Page*/
-EOS_06                          :  'Ether/トークンの送出ページに移動する', /*Go to Send Ether & Tokens Page*/
+EOS_06                          :  'Ether/トークンの送出ページに移動する', /*Go to Send Coins & Tokens Page*/
 EOS_07                          :  '現在解錠中のお財布と同じものをここで解錠する', /*Unlock same wallet you are unlocking here.*/
 EOS_08                          :  '支援したい量を`0xd0a6E6C54DbC68Db5db3A091B171A77407Ff7ccf`に送出する', /*Send Amount you want to Contribute to `0xd0a6E6C54DbC68Db5db3A091B171A77407Ff7ccf`*/
 EOS_09                          :  'EOSトークンを請求する', /*Claim EOS Tokens*/
 EOS_10                          :  '`claimAll`を選択する', /*Select `claimAll`.*/
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'MyEtherWallet.com へようこそ!', /*Welcome to MyEtherWallet.com*/
+ONBOARD_welcome_title           :  'wallet.hyperdapp.org へようこそ!', /*Welcome to wallet.hyperdapp.org*/
 ONBOARD_welcome_content__1      :  'あなた自身の安全のために、以下の事項をご理解ください。🙏', /*Please take some time to understand this for your own safety. 🙏*/
 ONBOARD_welcome_content__2      :  'これらの警告をよくご覧いただきませんと、**資産が盗まれる**ことになります。', /*Your funds will be stolen if you do not heed these warnings.*/
 ONBOARD_welcome_content__3      :  'わずらわしい説明だと重々承知しております。申し訳ございません。', /*We know this click-through stuff is annoying. We are sorry.*/
-ONBOARD_welcome_content__4      :  'MyEtherWallet とは何か', /*What is MEW*/
-ONBOARD_welcome_content__5      :  'MyEtherWallet は、無料で、オープンソースの、クライアントサイド・インターフェイスです。', /*MyEtherWallet is a free, open-source, client-side interface.*/
+ONBOARD_welcome_content__4      :  'Wallet とは何か', /*What is MEW*/
+ONBOARD_welcome_content__5      :  'Wallet は、無料で、オープンソースの、クライアントサイド・インターフェイスです。', /*Wallet is a free, open-source, client-side interface.*/
 ONBOARD_welcome_content__6      :  '暗号鍵と資産を自身の管理下に置きながら、ブロックチェーンを直接操作することができます。', /*We allow you to interact directly with the blockchain while remaining in full control of your keys &amp; your funds.*/
 ONBOARD_welcome_content__7      :  '**あなた**が、そして**あなただけ**が、自分のセキュリテイの全責任を負います。', /***You** and **only you** are responsible for your security.*/
 ONBOARD_welcome_content__8      :  '詐欺サイトに騙されたり、暗号鍵を失くしてしまっても、私たちは資産を取り返したりお財布を凍結したりすることはできません。', /*We cannot recover your funds or freeze your account if you visit a phishing site or lose your private key.*/
-ONBOARD_bank_title              :  'MyEtherWallet は金融機関に非ず', /*MyEtherWallet is not a Bank*/
+ONBOARD_bank_title              :  'Wallet は金融機関に非ず', /*Wallet is not a Bank*/
 ONBOARD_bank_content__1         :  '銀行や取引所などの金融機関に口座を開設すると、その金融機関がシステムの中にあなたの口座を作成します。', /*When you open an account with a bank or exchange, they create an account for you in their system.*/
 ONBOARD_bank_content__2         :  'その金融機関はあなたの個人情報や口座のパスワード、残高、取引記録、そして究極的にはあなたの財産を記録・管理します。', /*The bank keeps track of your personal information, account passwords, balances, transactions and ultimately your money.*/
 ONBOARD_bank_content__3         :  'また、カードが盗難に遭った際の払い戻しなど、口座の維持・管理に必要な手数料を徴収します。', /*The bank charge fees to manage your account and provide services, like refunding transactions when your card gets stolen.*/
 ONBOARD_bank_content__4         :  '金融機関では、小切手を切ったり、送金のためにデビッドカードをチャージしたり、オンラインで残高の確認をしたり、パスワードや盗難に遭ったカードの再発行ができます。', /*The bank allows you to write a check or charge your debit card to send money, go online to check your balance, reset your password, and get a new debit card if you lose it.*/
 ONBOARD_bank_content__5         :  'あなたの口座はその金融機関のものであり、送金額の上限や送金相手の指定、怪しい入金をどれだけの間差し止めるか、などの基準を独自に定めています。全て手数料が元になっています。', /*You have an account *with the bank or exchange* and they decide how much money you can send, where you can send it, and how long to hold on a suspicious deposit. All for a fee.*/
 ONBOARD_welcome_title__alt      :  '前書き', /*Introduction*/
-ONBOARD_interface_title         :  'MyEtherWallet は窓口である', /*MyEtherWallet is an Interface*/
-ONBOARD_interface_content__1    :  'MyEtherWallet を使って口座を開設すると、一組の暗号数列、すなわち秘密鍵と公開鍵 (アドレス) が作成されます。', /*When you create an account on MyEtherWallet you are generating a cryptographic set of numbers: your private key and your public key (address).*/
+ONBOARD_interface_title         :  'Wallet は窓口である', /*Wallet is an Interface*/
+ONBOARD_interface_content__1    :  'Wallet を使って口座を開設すると、一組の暗号数列、すなわち秘密鍵と公開鍵 (アドレス) が作成されます。', /*When you create an account on Wallet you are generating a cryptographic set of numbers: your private key and your public key (address).*/
 ONBOARD_interface_content__2    :  'これらの暗号鍵の操作は全て、あなたのコンピューターの、あなたのブラウザの中で行われます。', /*The handling of your keys happens entirely on your computer, inside your browser.*/
 ONBOARD_interface_content__3    :  '私たちは、秘密鍵やパスワード、その他一切の口座情報を送信・受信・保管いたしません。', /*We never transmit, receive or store your private key, password, or other account information.*/
 ONBOARD_interface_content__4    :  '私たちは取引手数料を一切いただきません。', /*We do not charge a transaction fee.*/
 ONBOARD_interface_content__5    :  'あなたは、私たちの**窓口**で**ブロックチェーンを直接**操作しています。', /*You are simply using our **interface** to interact **directly with the blockchain**.*/
 ONBOARD_interface_content__6    :  '公開鍵 (アドレス) を相手に教えると、ETHやトークンを送ってもらうことができます。👍', /*If you send your *public key (address)* to someone, they can send you ETH or tokens. 👍*/
 ONBOARD_interface_content__7    :  '秘密鍵が誰かの手に渡ると、受け取った相手があなたの口座を横取りしてしまいます。👎', /*If you send your *private key* to someone, they now have full control of your account. 👎*/
-ONBOARD_bank_title__alt         :  'MyEtherWallet は金融機関に非ず', /*MEW isn\'t a Bank*/
+ONBOARD_bank_title__alt         :  'Wallet は金融機関に非ず', /*MEW isn\'t a Bank*/
 ONBOARD_blockchain_title__alt   :  'そもそもブロックチェーンとは何か', /*WTF is a Blockchain?*/
 ONBOARD_blockchain_skip         :  'もう知ってるんだけど...', /*I already know what a blockchain is...*/
 ONBOARD_blockchain_title        :  'ちょっと待って、一体ブロックチェーンって何?', /*Wait, WTF is a Blockchain?*/
 ONBOARD_blockchain_content__1   :  'ブロックチェーンは、世界共通の巨大な分散型のスプレッドシートのようなものです。', /*The blockchain is like a huge, global, decentralized spreadsheet.*/
 ONBOARD_blockchain_content__2   :  '誰が誰にコインをいくら送ったとか、どの口座にいくら残っているか、などの情報を全て記録・保持しています。', /*It keeps track of who sent how many coins to whom, and what the balance of every account is.*/
 ONBOARD_blockchain_content__3   :  '世界中に何千もいる特殊なコンピューターを持った人 (マイナー) によって、記録と管理が行われています。', /*It is stored and maintained by thousands of people (miners) across the globe who have special computers.*/
-ONBOARD_blockchain_content__4   :  'ブロックチェーンの中にあるブロックは全て、MyEtherWallet や MetaMask、Exodus、Mist、Geth、Parity、その他様々な場所から送られてきた個々の取引記録で構成されています。', /*The blocks in the blockchain are made up of all the individual transactions sent from MyEtherWallet, MetaMask, Exodus, Mist, Geth, Parity, and everywhere else.*/
-ONBOARD_blockchain_content__5   :  'MyEtherWallet や [etherscan.io](https://etherscan.io) で残高や取引記録を確認すると、見えるのは私たちのシステムの中身ではなく、ブロックチェーン上にあるデータです。', /*When you see your balance on MyEtherWallet.com or view your transactions on [etherscan.io](https://etherscan.io), you are seeing data on the blockchain, not in our personal systems.*/
+ONBOARD_blockchain_content__4   :  'ブロックチェーンの中にあるブロックは全て、Wallet や MetaMask、Exodus、Mist、Geth、Parity、その他様々な場所から送られてきた個々の取引記録で構成されています。', /*The blocks in the blockchain are made up of all the individual transactions sent from Wallet, MetaMask, Exodus, Mist, Geth, Parity, and everywhere else.*/
+ONBOARD_blockchain_content__5   :  'Wallet や [etherscan.io](https://etherscan.io) で残高や取引記録を確認すると、見えるのは私たちのシステムの中身ではなく、ブロックチェーン上にあるデータです。', /*When you see your balance on wallet.hyperdapp.org or view your transactions on [etherscan.io](https://etherscan.io), you are seeing data on the blockchain, not in our personal systems.*/
 ONBOARD_blockchain_content__6   :  '大事なことなのでもう一度: **私たちは金融機関ではありません。**', /*Again: **we are not a bank**.*/
-ONBOARD_interface_title__alt    :  'MyEtherWallet は窓口である', /*MEW is an Interface*/
+ONBOARD_interface_title__alt    :  'Wallet は窓口である', /*MEW is an Interface*/
 ONBOARD_why_title__alt          :  'でも... 何故それがそんなに大事なの?', /*But...why does this matter?*/
 ONBOARD_why_title               :  '何故全部読ませるの?', /*Why are you making me read all this?*/
 ONBOARD_why_content__1          :  'それは、私たちに**出来ない**事をご理解していただくためです...', /*Because we need you to understand that we **cannot**...*/
@@ -159,20 +159,20 @@ ONBOARD_why_content__8          :  '秘密鍵とパスワードを大事に保�
 ONBOARD_why_content__9          :  'もし秘密鍵やパスワードを忘れると、誰も回復させることができません。', /*If you lose your private key or password, no one can recover it.*/
 ONBOARD_why_content__10         :  'もし、あなたが秘密鍵を詐欺サイトで入力すると、**全ての資産**が盗まれてしまいます。', /*If you enter your private key on a phishing website, you will have **all your funds taken**.*/
 ONBOARD_blockchain_title__alt   :  'そもそもブロックチェーンとは何か', /*WTF is a Blockchain?*/
-ONBOARD_point_title__alt        :  'それなら MyEtherWallet は何ができるの?', /*What\'s the Point of MEW then?*/
-ONBOARD_whymew_title            :  'MyEtherWallet ができないなら、つまりどういうこと?', /*If MyEtherWallet can\'t do those things, what\'s the point?*/
+ONBOARD_point_title__alt        :  'それなら Wallet は何ができるの?', /*What\'s the Point of MEW then?*/
+ONBOARD_whymew_title            :  'Wallet ができないなら、つまりどういうこと?', /*If Wallet can\'t do those things, what\'s the point?*/
 ONBOARD_whymew_content__1       :  'これがブロックチェーンと分散化の**肝**である、ということです。', /*Because that is the point of decentralization and the blockchain.*/
 ONBOARD_whymew_content__2       :  '自分の資産を動かすときに、金融機関・政府や他の誰かを頼る必要が全くありません。', /*You don\'t have to rely on your bank, government, or anyone else when you want to move your funds.*/
 ONBOARD_whymew_content__3       :  '自分の資産を守るために、取引所や銀行のセキュリティに頼る必要もありません。', /*You don\'t have to rely on the security of an exchange or bank to keep your funds safe.*/
 ONBOARD_whymew_content__4       :  'もし、こういった事には価値がない、と感じるのでしたら、なぜブロックチェーンや仮想通貨に価値を感じたのか、よく考えてみてください。😉', /*If you don\'t find these things valuable, ask yourself why you think the blockchain and cryptocurrencies are valuable. 😉*/
 ONBOARD_whymew_content__5       :  'もし、お気に召さないようでしたら、[Coinbase](https://www.coinbase.com/) や [Blockchain.info](https://blockchain.info/wallet/#/signup)をお使いください。これらは、IDとパスワードを使用する、より一般的な口座を採用しています。', /*If you don\'t like the sound of this, consider using [Coinbase](https://www.coinbase.com/) or [Blockchain.info](https://blockchain.info/wallet/#/signup). They have more familiar accounts with usernames & passwords.*/
-ONBOARD_whymew_content__6       :  'もし、少し不安だけれども MyEtherWallet を使いたければ、[ハードウェアウォレットを入手しましょう](https://kb.myetherwallet.com/hardware-wallets/hardware-wallet-recommendations.html)！(英語) あなたの鍵を安全に保管してくれます。', /*If you are scared but want to use MEW, [get a hardware wallet](https://kb.myetherwallet.com/hardware-wallets/hardware-wallet-recommendations.html)! These keep your keys secure.*/
+ONBOARD_whymew_content__6       :  'もし、少し不安だけれども Wallet を使いたければ、[ハードウェアウォレットを入手しましょう](https://kb.wallet.hyperdapp.org/hardware-wallets/hardware-wallet-recommendations.html)！(英語) あなたの鍵を安全に保管してくれます。', /*If you are scared but want to use MEW, [get a hardware wallet](https://kb.wallet.hyperdapp.org/hardware-wallets/hardware-wallet-recommendations.html)! These keep your keys secure.*/
 ONBOARD_why_title__alt          :  'でも... どうして?', /*But...why?*/
 ONBOARD_secure_title            :  '自分自身とその資産の守り方', /*How To Protect Yourself & Your Funds*/
 ONBOARD_secure_1_title          :  'フィッシング詐欺から自分自身を守る方法', /*How To Protect Yourself from Phishers*/
-ONBOARD_secure_1_content__1     :  'フィッシング詐欺師は、MyEtherWallet や EtherDelta、Paypalやあなたの銀行に似せて作られたウェブサイトのリンクが含まれたメッセージを送りつけてきますが、これは偽サイトです。あなたの情報を盗み、そして資産を盗みます。', /*Phishers send you a message with a link to a website that looks just like MyEtherWallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.*/
-ONBOARD_secure_1_content__2     :  '[EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) または [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)、[Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige)、[MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) を使い、悪質なサイトを遮断してください。', /*Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or  or the [MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.*/
-ONBOARD_secure_1_content__3     :  'いつも、必ず、URLが「https://www.myetherwallet.com」であるを確認してください。', /*Always check the URL: `https://www.myetherwallet.com`.*/
+ONBOARD_secure_1_content__1     :  'フィッシング詐欺師は、Wallet や EtherDelta、Paypalやあなたの銀行に似せて作られたウェブサイトのリンクが含まれたメッセージを送りつけてきますが、これは偽サイトです。あなたの情報を盗み、そして資産を盗みます。', /*Phishers send you a message with a link to a website that looks just like Wallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.*/
+ONBOARD_secure_1_content__2     :  '[EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) または [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)、[Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige)、[Wallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) を使い、悪質なサイトを遮断してください。', /*Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or  or the [Wallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.*/
+ONBOARD_secure_1_content__3     :  'いつも、必ず、URLが「https://www.wallet.hyperdapp.org」であるを確認してください。', /*Always check the URL: `https://www.wallet.hyperdapp.org`.*/
 ONBOARD_secure_1_content__4     :  'URLバーに、`MYETHERWALLET INC` と緑色で表示されていることを必ず確認してください。', /* Always make sure the URL bar has `MYETHERWALLET INC` in green. */
 ONBOARD_secure_1_content__5     :  'Eメールや Slack、Reddit、Twitter などから無差別に送られてくるメッセージやリンクを信用しないでください。', /*Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.*/
 ONBOARD_secure_1_content__6     :  '情報を入力する際は、Eメールやメッセージ中のリンクを経由してWebサイトに行くのではなく、常に直接Webサイトを訪れてください。', /*Always navigate directly to a site before you enter information. Do not enter information after clicking a link from a message or email.*/
@@ -191,7 +191,7 @@ ONBOARD_secure_3_content__2     :  '秘密鍵やパスワードのバックア�
 ONBOARD_secure_3_content__3     :  '印刷した紙やUSBキーを、物理的に別の場所に保管してください。バックアップ一つだけでは、火事や津波などで、コンピューターと共に破壊されてしまいます。', /*Store this paper or USB drive in a different physical location. A backup is not useful if it is destroyed by a fire or flood along with your laptop.*/
 ONBOARD_secure_3_content__4     :  '秘密鍵を Dropbox や Google Drive、または他のクラウドストレージに保管しないでください。そのアカウントのセキュリティが損なわれた場合に、資産が盗まれてしまいます。', /*Do not store your private key in Dropbox, Google Drive, or other cloud storage. If that account is compromised, your funds will be stolen.*/
 ONBOARD_secure_3_content__5     :  'もし、あなたが1週間以上の給料に値する仮想通貨をお持ちであれば、ハードウェアウォレットを入手してください。言い訳ご無用。それだけの価値があります。絶対です。', /*If you have more than 1-week\'s worth of pay worth of cryptocurrency, get a hardware wallet. No excuses. It\'s worth it. I promise.*/
-ONBOARD_secure_3_content__6     :  '[さらなる安全確保のためのセキュリティ情報はこちら！](https://kb.myetherwallet.com/getting-started/protecting-yourself-and-your-funds.html)', /*[Even more Security Tips!](https://kb.myetherwallet.com/getting-started/protecting-yourself-and-your-funds.html)*/
+ONBOARD_secure_3_content__6     :  '[さらなる安全確保のためのセキュリティ情報はこちら！](https://kb.wallet.hyperdapp.org/getting-started/protecting-yourself-and-your-funds.html)', /*[Even more Security Tips!](https://kb.wallet.hyperdapp.org/getting-started/protecting-yourself-and-your-funds.html)*/
 ONBOARD_secure_2_title__alt_2   :  '詐欺の撲滅', /*Screw Scams*/
 ONBOARD_final_title__alt        :  'あとワンクリックで完了です! 🤘', /*One more click & you\'re done! 🤘*/
 ONBOARD_final_title             :  'よし、これにて講義終了!', /*Alright, I\'m done lecturing you!*/
@@ -208,11 +208,11 @@ ONBOARD_final_content__9        :  'もう勘弁、お願い、早く使わせ�
 ONBOARD_resume                  :  'まだスライドを最後までお読みになっていないようです。アドバイス: スライドは全部読んだほうがいいですよ 😉',/*It looks like you didn\'t finish reading through these slides last time. ProTip: Finish reading through the slides 😉*/
 
 /* Old */
-ADD_DigitalBitbox_0a        : 'セキュア通信（SSL)で、MyEtherWalletを開きなおしてください。',
-ADD_DigitalBitbox_0b        : '[Chrome](https://www.google.com/chrome/browser/desktop/)か[Opera](https://www.opera.com/)で、MyEtherWalletを開きなおしてください',
+ADD_DigitalBitbox_0a        : 'セキュア通信（SSL)で、Walletを開きなおしてください。',
+ADD_DigitalBitbox_0b        : '[Chrome](https://www.google.com/chrome/browser/desktop/)か[Opera](https://www.opera.com/)で、Walletを開きなおしてください',
 ADD_DigitalBitbox_scan      : 'Digital Bitboxに接続する',
-ADD_Secalot_0a              : 'セキュア通信（SSL)で、MyEtherWalletを開きなおしてください。',
-ADD_Secalot_0b              : '[Chrome](https://www.google.com/chrome/browser/desktop/)か[Opera](https://www.opera.com/)で、MyEtherWalletを開きなおしてください',
+ADD_Secalot_0a              : 'セキュア通信（SSL)で、Walletを開きなおしてください。',
+ADD_Secalot_0b              : '[Chrome](https://www.google.com/chrome/browser/desktop/)か[Opera](https://www.opera.com/)で、Walletを開きなおしてください',
 ADD_Secalot_scan            : 'Secalotに接続する',
 ADD_Label_1                 : 'ご希望の操作方法をお選びください。',
 ADD_Label_2                 : 'ニックネームの作成:',
@@ -223,8 +223,8 @@ ADD_Label_6                 : 'お財布を解錠する',
 ADD_Label_6_short           : '解錠',
 ADD_Label_7                 : 'アカウントを追加する',
 ADD_Label_8                 : 'パスワード（任意）:',
-ADD_Ledger_0a               : 'セキュア通信（SSL)で、MyEtherWalletを開きなおしてください。',
-ADD_Ledger_0b               : '[Chrome](https://www.google.com/chrome/browser/desktop/)か[Opera](https://www.opera.com/)で、MyEtherWalletを開きなおしてください',
+ADD_Ledger_0a               : 'セキュア通信（SSL)で、Walletを開きなおしてください。',
+ADD_Ledger_0b               : '[Chrome](https://www.google.com/chrome/browser/desktop/)か[Opera](https://www.opera.com/)で、Walletを開きなおしてください',
 ADD_Ledger_1                : 'Ledger Walletに接続する',
 ADD_Ledger_2                : 'Etherreumアプリケーション（または契約アプリケーション）を開く',
 ADD_Ledger_2_Exp            : 'Expanseアプリケーション（または契約アプリケーション）を開く',
@@ -293,7 +293,7 @@ ERROR_13                    : '(error_14) 同じニックネームのお財布�
 ERROR_14                    : '(error_15) お財布が見つかりません。',
 ERROR_15                    : '(error_16) おや、このIDのプロポーサルは存在しないか、あるいは正常に読み込みできないようです。',
 ERROR_16                    : '(error_17) 同じアドレスのお財布が既に存在します。お財布のページをご確認ください。',
-ERROR_17                    : '(error_18) 残高が足りません。ガスリミット × ガス価格 + 送出したい量 が現在の残高より多いです。口座にETHを追加するか「残高をすべて送出する」ボタンを使ってください。もしこのエラーが間違いだと思う場合は、 トランザクションを生成しなおしてください。 必要量: (d+), 所持量: (d+) [詳細はこちら](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)',
+ERROR_17                    : '(error_18) 残高が足りません。ガスリミット × ガス価格 + 送出したい量 が現在の残高より多いです。口座にETHを追加するか「残高をすべて送出する」ボタンを使ってください。もしこのエラーが間違いだと思う場合は、 トランザクションを生成しなおしてください。 必要量: (d+), 所持量: (d+) [詳細はこちら](https://kb.wallet.hyperdapp.org/transactions/transactions-not-showing-or-pending.html)',
 ERROR_18                    : '(error_19) 全てのガスがこのトランザクションにより消費されます。これは、このプロポーサルに既に投票したか、ディベート期間が終了しているためです。',
 ERROR_19                    : '(error_20) 正しいシンボルを入力してください。',
 ERROR_20                    : '(error_21) 正しいERC-20トークンではありません。',
@@ -311,34 +311,34 @@ ERROR_31                    : '(error_32) 正しいsecret phraseを入力して�
 ERROR_32                    : '(error_33) ノードに接続できませんでした。ページを再表示したり、別のノード（画面の右上にあります）を試したり、ファイアーウォールの設定を確認したりしてください。 カスタムノードを使用している場合は、設定を確認してください。',
 ERROR_33                    : '(error_34) 解錠したお財布のアドレスが、オーナーのアドレスと一致しません。',
 ERROR_34                    : '(error_35) 開示しようとしている名前が、以前に入力した名前と異なります。',
-ERROR_35                    : '(error_36) 入力したアドレスには、チェックサムが付いていません。<a href="https://kb.myetherwallet.com/addresses/what-does-checksummed-mean.html" target="_blank" rel="noopener noreferrer">詳細はこちら</a>',
+ERROR_35                    : '(error_36) 入力したアドレスには、チェックサムが付いていません。<a href="https://kb.wallet.hyperdapp.org/addresses/what-does-checksummed-mean.html" target="_blank" rel="noopener noreferrer">詳細はこちら</a>',
 ERROR_36                    : '(error_37) 正しいトランザクションハッシュを入力してください。',
 ERROR_37                    : '(error_38) 16進数を正しく入力してください。（入力可能文字列: 0x, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, a, b, c, d, e, f）',
 ERROR_38                    : '(error_39) 申請は、価格か最低価格を0以上に設定する必要があります。',
 ERROR_39                    : '(error_40) 入札額は指定された最少額よりも大きい必要があります。',
 ERROR_40                    : '(error_41) Please enter a valid private key',
 
-GETH_Balance                : '(geth-01) 残高が足りません。ガスリミット × ガス価格 + 送出したい量 が現在の残高より多いです。口座にETHを追加するか「残高をすべて送出する」ボタンを使ってください。もしこのエラーが間違いだと思う場合は、 トランザクションを生成しなおしてください。 必要量: (d+), 所持量: (d+) [詳細はこちら](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)',
+GETH_Balance                : '(geth-01) 残高が足りません。ガスリミット × ガス価格 + 送出したい量 が現在の残高より多いです。口座にETHを追加するか「残高をすべて送出する」ボタンを使ってください。もしこのエラーが間違いだと思う場合は、 トランザクションを生成しなおしてください。 必要量: (d+), 所持量: (d+) [詳細はこちら](https://kb.wallet.hyperdapp.org/transactions/transactions-not-showing-or-pending.html)',
 GETH_Cheap                  : '(geth-02) ガス価格が低すぎて承認できません。画面右上のドロップダウンメニューから、ガス価格を21 GWEIに上げてみてください。',
-GETH_GasLimit               : '(geth-03) ブロックのガスリミットを超過しました。トランザクション・コストが現在のガスリミットを超過しました。 リミット: (d+), 指定: (d+). ガスリミットを21000（送出時）か200000（トークンや契約の送出時）より少なくして、もう一度お試しください。[詳細はこちら](https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html)',
-GETH_InsufficientFunds      : '(geth-04) 残高が足りません。ガスリミット × ガス価格 + 送出したい量 が現在の残高より多いです。口座にETHを追加するか「残高をすべて送出する」ボタンを使ってください。もしこのエラーが間違いだと思う場合は、 トランザクションを生成しなおしてください。 必要量: (d+), 所持量: (d+) [詳細はこちら](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)',
+GETH_GasLimit               : '(geth-03) ブロックのガスリミットを超過しました。トランザクション・コストが現在のガスリミットを超過しました。 リミット: (d+), 指定: (d+). ガスリミットを21000（送出時）か200000（トークンや契約の送出時）より少なくして、もう一度お試しください。[詳細はこちら](https://kb.wallet.hyperdapp.org/gas/what-is-gas-ethereum.html)',
+GETH_InsufficientFunds      : '(geth-04) 残高が足りません。ガスリミット × ガス価格 + 送出したい量 が現在の残高より多いです。口座にETHを追加するか「残高をすべて送出する」ボタンを使ってください。もしこのエラーが間違いだと思う場合は、 トランザクションを生成しなおしてください。 必要量: (d+), 所持量: (d+) [詳細はこちら](https://kb.wallet.hyperdapp.org/transactions/transactions-not-showing-or-pending.html)',
 GETH_IntrinsicGas           : '(geth-05) もともとのガスの量が低すぎます。画面右上のドロップダウンメニューから、ガス価格を21 GWEIに上げるか、ガスリミットを21000（送出時）か200000（トークンや契約の送出時）まで上げて、もう一度お試しください。',
 GETH_InvalidSender          : '(geth-06) 送出元が無効です。',
 GETH_NegativeValue          : '(geth-07) 負の値です。',
-GETH_Nonce                  : '(geth-08) トランザクションの[nonce](https://kb.myetherwallet.com/transactions/what-is-nonce.html)が低すぎます。トランザクション生成ボタンを押してnonceを増やすか、[待機中トランザクションを置き換えてください](https://kb.myetherwallet.com/transactions/check-status-of-ethereum-transaction.html)。',
+GETH_Nonce                  : '(geth-08) トランザクションの[nonce](https://kb.wallet.hyperdapp.org/transactions/what-is-nonce.html)が低すぎます。トランザクション生成ボタンを押してnonceを増やすか、[待機中トランザクションを置き換えてください](https://kb.wallet.hyperdapp.org/transactions/check-status-of-ethereum-transaction.html)。',
 GETH_NonExistentAccount     : '(geth-09) アカウントが存在しないか、残高不足です。',
 
-PARITY_AlreadyImported      : "(parity-01) 同じハッシュのトランザクションが既にインポートされています。このトランザクションは既に送出されている可能性があります。トランザクションの重複を防ぐために、[etherscan.io](https://etherscan.io)でアドレスを確認してください。再送出しようとする前に10分間待機してください。[詳しくはこちら](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)",
-PARITY_GasLimitExceeded     : "(parity-02) トランザクション・コストが現在のガスリミットを超過しました。 リミット: (d+), 指定: (d+). ガスリミットを21000（送出時）か200000（トークンや契約の送出時）より少なくして、もう一度お試しください。[詳細はこちら](https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html)",　　　/* increasing gas limit???  Transaction cost exceeds current gas limit. Limit: (d+), got: (d+). Please lower the gas limit to 21000 (for sending) or 200000 (for sending tokens or contracts) and try again. [Learn More](https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html)*/
-PARITY_InsufficientBalance  : "(parity-03) 残高が足りません。トランザクションを送出しようとしているアカウントに、十分な量の資金がありません。もしこのエラーが間違いだと思う場合は、「残高をすべて送出する」ボタンを使うか、トランザクションを生成しなおしてください。必要量: (d+), 所持量: (d+) [詳細はこちら](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)",
-PARITY_InsufficientGasPrice : "(parity-04) 同じnonceのトランザクションが既にキューに存在しているか、トランザクション手数料が低すぎます。トランザクション生成ボタンを押してnonceを増やしてください。[詳細はこちら](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)",
-PARITY_InvalidGasLimit      : "(parity-05) ガス供給量が制限を超過しています。ガスリミットを21000に下げてください。[詳細はこちら](https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html)",
-PARITY_LimitReached         : "(parity-06) キューに存在するトランザクションの数が多すぎます。上限超過のため、このトランザクションは除外されています。ガス価格を上げてください。[詳細はこちら](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)",
-PARITY_Old                  : "(parity-07) 同じ[nonce](https://kb.myetherwallet.com/transactions/what-is-nonce.html)のトランザクションが既に存在しています。トランザクション生成ボタンを押してnonceを増やすか、[待機中トランザクションを置き換えてください](https://kb.myetherwallet.com/transactions/check-status-of-ethereum-transaction.html)。",
-PARITY_TooCheapToReplace    : "(parity-08) トランザクション手数料が低すぎます。ご利用のノードの最低額を満たしていません（最低額: (d+), 指定: (d+)）。ガス価格かガスリミットを上げてください。[詳細はこちら](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)",
+PARITY_AlreadyImported      : "(parity-01) 同じハッシュのトランザクションが既にインポートされています。このトランザクションは既に送出されている可能性があります。トランザクションの重複を防ぐために、[etherscan.io](https://etherscan.io)でアドレスを確認してください。再送出しようとする前に10分間待機してください。[詳しくはこちら](https://kb.wallet.hyperdapp.org/transactions/transactions-not-showing-or-pending.html)",
+PARITY_GasLimitExceeded     : "(parity-02) トランザクション・コストが現在のガスリミットを超過しました。 リミット: (d+), 指定: (d+). ガスリミットを21000（送出時）か200000（トークンや契約の送出時）より少なくして、もう一度お試しください。[詳細はこちら](https://kb.wallet.hyperdapp.org/gas/what-is-gas-ethereum.html)",　　　/* increasing gas limit???  Transaction cost exceeds current gas limit. Limit: (d+), got: (d+). Please lower the gas limit to 21000 (for sending) or 200000 (for sending tokens or contracts) and try again. [Learn More](https://kb.wallet.hyperdapp.org/gas/what-is-gas-ethereum.html)*/
+PARITY_InsufficientBalance  : "(parity-03) 残高が足りません。トランザクションを送出しようとしているアカウントに、十分な量の資金がありません。もしこのエラーが間違いだと思う場合は、「残高をすべて送出する」ボタンを使うか、トランザクションを生成しなおしてください。必要量: (d+), 所持量: (d+) [詳細はこちら](https://kb.wallet.hyperdapp.org/transactions/transactions-not-showing-or-pending.html)",
+PARITY_InsufficientGasPrice : "(parity-04) 同じnonceのトランザクションが既にキューに存在しているか、トランザクション手数料が低すぎます。トランザクション生成ボタンを押してnonceを増やしてください。[詳細はこちら](https://kb.wallet.hyperdapp.org/transactions/transactions-not-showing-or-pending.html)",
+PARITY_InvalidGasLimit      : "(parity-05) ガス供給量が制限を超過しています。ガスリミットを21000に下げてください。[詳細はこちら](https://kb.wallet.hyperdapp.org/gas/what-is-gas-ethereum.html)",
+PARITY_LimitReached         : "(parity-06) キューに存在するトランザクションの数が多すぎます。上限超過のため、このトランザクションは除外されています。ガス価格を上げてください。[詳細はこちら](https://kb.wallet.hyperdapp.org/transactions/transactions-not-showing-or-pending.html)",
+PARITY_Old                  : "(parity-07) 同じ[nonce](https://kb.wallet.hyperdapp.org/transactions/what-is-nonce.html)のトランザクションが既に存在しています。トランザクション生成ボタンを押してnonceを増やすか、[待機中トランザクションを置き換えてください](https://kb.wallet.hyperdapp.org/transactions/check-status-of-ethereum-transaction.html)。",
+PARITY_TooCheapToReplace    : "(parity-08) トランザクション手数料が低すぎます。ご利用のノードの最低額を満たしていません（最低額: (d+), 指定: (d+)）。ガス価格かガスリミットを上げてください。[詳細はこちら](https://kb.wallet.hyperdapp.org/transactions/transactions-not-showing-or-pending.html)",
 
 
-FOOTER_1                    : 'Ethereum ウォレットを作成するための、無料で、オープンソースの、クライアントサイド・インターフェイス。Ethereum のブロックチェーンを簡単且つ安全に操作。お財布解錠の前に、URL (myetherwallet.com) を再確認してください。',
+FOOTER_1                    : 'Ethereum ウォレットを作成するための、無料で、オープンソースの、クライアントサイド・インターフェイス。Ethereum のブロックチェーンを簡単且つ安全に操作。お財布解錠の前に、URL (wallet.hyperdapp.org) を再確認してください。',
 FOOTER_1b                   : '制作者:',
 FOOTER_2                    : '投げ銭に感謝いたします！',
 FOOTER_3                    : 'クライアント・サイド ウォレット制作者:',
@@ -359,7 +359,7 @@ GEN_Help_8                  : 'ファイルをダウンロードしませんで�
 GEN_Help_9                  : 'Google Chromeをお使いください', /* Try using Google Chrome */
 GEN_Help_10                 : '右クリックしてファイルを保存してください。ファイル名:', /* Right click & save file as. Filename:  */
 GEN_Help_11                 : 'このファイルは、コンピューター上で開かないでください', /*Don\'t open this file on your computer */
-GEN_Help_12                 : 'MyEtherWallet上でこれを使用し、お財布を解錠してください（Mist、Geth、Parityやその他のお財布クライアントでも可）。', /*Use it to unlock your wallet via MyEtherWallet (or Mist, Geth, Parity and other wallet clients.)*/
+GEN_Help_12                 : 'Wallet上でこれを使用し、お財布を解錠してください（Mist、Geth、Parityやその他のお財布クライアントでも可）。', /*Use it to unlock your wallet via Wallet (or Mist, Geth, Parity and other wallet clients.)*/
 GEN_Help_13                 : 'Keystoreファイルのバックアップ方法', /*How to Back Up Your Keystore File */
 GEN_Help_14                 : 'これらの形式の違いは？',　/*What are these Different Formats? */
 GEN_Help_15                 : '資金の紛失や盗難を防止するには', /* Preventing loss & theft of your funds. */
@@ -408,7 +408,7 @@ MYWAL_Edit_2                : 'お財布を編集：',
 MYWAL_Name                  : 'お財布名',
 MYWAL_Content_1             : '警告！ お財布を消去しようとしています',
 MYWAL_Content_2             : '消去する前に、**秘密鍵とKeystoreファイルのいずれか又は両方、及びパスワードが保管されているか**確認してください。',
-MYWAL_Content_3             : '今後MyEtherWallet CXでこのお財布を使用するためには、秘密鍵/JSONとパスワードを手動で追加する必要があります。',
+MYWAL_Content_3             : '今後Wallet CXでこのお財布を使用するためには、秘密鍵/JSONとパスワードを手動で追加する必要があります。',
 
 NAV_AddWallet               : 'お財布の追加', /* Add Wallet */
 NAV_BulkGenerate            : '大量作成', /* Bulk Generate */
@@ -435,7 +435,7 @@ NAV_YourWallets             : '自分のお財布',
 
 NODE_Title                  : 'カスタムノードをセットアップ',
 NODE_Subtitle               : 'ローカルノードに接続するには...',
-NODE_Warning                : 'MyEtherWallet.com 経由で接続するためには、HTTPSノードが必要です。[MyEtherWalletをレポジトリからダウンロードして、ローカル環境で実行させて](https://github.com/kvhnuke/etherwallet/releases/latest)、いずれかのノードに接続することもできます。または、無料のSSL証明書を[LetsEncrypt](https://letsencrypt.org/)から入手してください。',
+NODE_Warning                : 'wallet.hyperdapp.org 経由で接続するためには、HTTPSノードが必要です。[Walletをレポジトリからダウンロードして、ローカル環境で実行させて](https://github.com/kvhnuke/etherwallet/releases/latest)、いずれかのノードに接続することもできます。または、無料のSSL証明書を[LetsEncrypt](https://letsencrypt.org/)から入手してください。',
 NODE_Name                   : 'ノード名',
 NODE_Port                   : 'ノードポート',
 NODE_CTA                    : '保存してカスタムノードを使用',
@@ -487,7 +487,7 @@ sidebar_AccountBal          : 'アカウント残高',
 sidebar_TokenBal            : 'トークン残高',
 sidebar_Equiv               : '同等価値',
 sidebar_TransHistory        : 'トランザクション履歴',
-sidebar_donation            : 'MyEtherWalletは、無料で、オープンソースのサービスで、皆さまのプライバシーとセキュリティのための全力を尽くしています。寄付が増えることによって、新機能の作成やフィードバックの反映に多くの時間を費やし、よりユーザーの皆さまのご希望に沿ったものを提供することが可能になります。私たちは、たった二人で世界を変えようとしています。どうかお手伝いいただけませんか？',
+sidebar_donation            : 'Walletは、無料で、オープンソースのサービスで、皆さまのプライバシーとセキュリティのための全力を尽くしています。寄付が増えることによって、新機能の作成やフィードバックの反映に多くの時間を費やし、よりユーザーの皆さまのご希望に沿ったものを提供することが可能になります。私たちは、たった二人で世界を変えようとしています。どうかお手伝いいただけませんか？',
 sidebar_donate              : '寄付する',
 sidebar_thanks              : 'ありがとう!!!',
 sidebar_DisplayOnTrezor     : 'TREZORでアドレスを表示',
@@ -555,15 +555,15 @@ tx_foundInPending_3         : 'トランザクションの「取り消し」ま�
 tx_FoundOnChain             : 'トランザクションが見つかりました',
 tx_FoundOnChain_1           : 'トランザクションは正常に発掘され、ブロックチェーンに組み込まれました。',
 tx_FoundOnChain_2           : '**もし赤い`( ! )`マークや`BAD INSTRUCTION`、あるいは`OUT OF GAS` のエラーメッセージを見つけたら**, トランザクションの送出に失敗したということです。トランザクションの取り消しや置き換えはできません。代わりに、新しくトランザクションを送出してください。"Out of Gas"エラーの場合には、ガスリミットを初めに指定した値の2倍にしてください。',
-tx_FoundOnChain_3           : '**何もエラーメッセージが表示されていなければ、トランザクションは正しく送出されました。** ETH/トークンは、送出先に到着しました。もし、ETH/トークンが他のお財布や取引所のウォレットに見つからず、送出から24時間以上経っていたら、[送出先のサービスに連絡](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html)してください。自分のトランザクションのリンクを連絡し、正確に状況を確認してもらってください。',
+tx_FoundOnChain_3           : '**何もエラーメッセージが表示されていなければ、トランザクションは正しく送出されました。** ETH/トークンは、送出先に到着しました。もし、ETH/トークンが他のお財布や取引所のウォレットに見つからず、送出から24時間以上経っていたら、[送出先のサービスに連絡](https://kb.wallet.hyperdapp.org/diving-deeper/ethereum-list-of-support-and-communities.html)してください。自分のトランザクションのリンクを連絡し、正確に状況を確認してもらってください。',
 tx_notFound                 : 'トランザクションが見つかりません',
 tx_notFound_1               : 'このトランザクションは、現在接続中のTXプールの中にありませんでした。',
 tx_notFound_2               : 'もしたった今トランザクションを送出したばかりであれば、15秒待ってから「取引状況の確認」ボタンをもう一度押してください。',
 tx_notFound_3               : '別のTXプールで発掘を待っているままかもしれません。',
-tx_notFound_4               : '画面右上のドロップダウンメニューから、別のノード（例: `ETH (Etherscan.io)`・`ETH (Infura.io)`・`ETH (MyEtherWallet)`）を選択し、もう一度確認してください',
-tx_Summary                  : '繁盛期（ICO実施中など）は、トランザクションは数時間（数日間ではなく）待機中のままになることがあります。このツールは、こういったトランザクションを検索し、「取り消し」または置き換えを行えるようにするためのものです。**これは通常は不要な操作です。このツールに頼るのは本来好ましいことではなく、TXプールが満杯のときのみ効果を発揮します。[このツールに関しては、こちらを参照してください。](https://kb.myetherwallet.com/transactions/check-status-of-ethereum-transaction.html)**',
+tx_notFound_4               : '画面右上のドロップダウンメニューから、別のノード（例: `ETH (Etherscan.io)`・`ETH (Infura.io)`・`ETH (Wallet)`）を選択し、もう一度確認してください',
+tx_Summary                  : '繁盛期（ICO実施中など）は、トランザクションは数時間（数日間ではなく）待機中のままになることがあります。このツールは、こういったトランザクションを検索し、「取り消し」または置き換えを行えるようにするためのものです。**これは通常は不要な操作です。このツールに頼るのは本来好ましいことではなく、TXプールが満杯のときのみ効果を発揮します。[このツールに関しては、こちらを参照してください。](https://kb.wallet.hyperdapp.org/transactions/check-status-of-ethereum-transaction.html)**',
 
-TXFEE_Desc                  : 'トランザクション手数料は、トランザクションをブロックへ組み込むためにマイナーに支払われます。`ガスリミット` × `ガス価格`で算出されます。 [GWEI -> ETHの単位変換はこちらからどうぞ](https://www.myetherwallet.com/helpers.html)',　/*The TX Fee is paid to miners for including your TX in a block. It is the `gas limit` * `gas price`. [You can convert GWEI -> ETH here](https://www.myetherwallet.com/helpers.html)*/
+TXFEE_Desc                  : 'トランザクション手数料は、トランザクションをブロックへ組み込むためにマイナーに支払われます。`ガスリミット` × `ガス価格`で算出されます。 [GWEI -> ETHの単位変換はこちらからどうぞ](https://www.wallet.hyperdapp.org/helpers.html)',　/*The TX Fee is paid to miners for including your TX in a block. It is the `gas limit` * `gas price`. [You can convert GWEI -> ETH here](https://www.wallet.hyperdapp.org/helpers.html)*/
 
 VIEWWALLET_HidePrivKey      : '(隠す)',
 VIEWWALLET_ShowPrivKey      : '(表示する)',
@@ -611,7 +611,7 @@ x_TXT                       : 'TXTファイル（未暗号化）',
 x_Wallet                    : 'お財布',
 
 HELP_0_Title                : '0) I\'m new. What do I do?',
-HELP_0_Desc_1               : 'MyEtherWallet gives you the ability to generate new wallets so you can store your Ether yourself, not on an exchange. This process happens entirely on your computer, not our servers. Therefore, when you generate a new wallet, **you are responsible for safely backing it up**.',
+HELP_0_Desc_1               : 'Wallet gives you the ability to generate new wallets so you can store your Ether yourself, not on an exchange. This process happens entirely on your computer, not our servers. Therefore, when you generate a new wallet, **you are responsible for safely backing it up**.',
 HELP_0_Desc_2               : 'Create a new wallet.',
 HELP_0_Desc_3               : 'Back the wallet up.',
 HELP_0_Desc_4               : 'Verify you have access to this new wallet and have correctly saved all necessary information.',
@@ -629,7 +629,7 @@ HELP_2a_Desc_4              : 'Place your address, versions of the private key, 
 HELP_2a_Desc_5              : 'Print the wallet if you have a printer. Otherwise, write down your private key and address on a piece of paper. Store this as a secure location, separate from your computer and the USB drive.',
 HELP_2a_Desc_6              : 'Keep in mind, you must prevent loss of the keys and password due to loss or failure of you hard drive failure, or USB drive, or piece of paper. You also must keep in mind physical loss / damage of an entire area (think fire or flood).',
 HELP_2a_Title               : 'お財布の保管やバックアップの方法は？',
-HELP_2b_Title               : '2b) How do I safely / offline / cold storage with MyEtherWallet?',
+HELP_2b_Title               : '2b) How do I safely / offline / cold storage with Wallet?',
 HELP_2b_Desc_1              : 'Go to [https://github.com/kvhnuke/etherwallet/releases/latest](https://github.com/kvhnuke/etherwallet/releases/latest).',
 HELP_2b_Desc_2              : 'Click on `etherwallet-vX.X.X.X.zip`.',
 HELP_2b_Desc_3              : 'Move zip to an airgapped computer.',
@@ -641,7 +641,7 @@ HELP_2b_Desc_8              : 'Go to the "View Wallet Info" page and type in you
 HELP_3_Title                : '3) How do I verify I have access to my new wallet?',
 HELP_3_Desc_1               : '**Before you send any Ether to your new wallet**, you should ensure you have access to it.',
 HELP_3_Desc_2               : 'Navigate to the "View Wallet Info" page.',
-HELP_3_Desc_3               : 'Navigate to the MyEtherWallet.com "View Wallet Info" page.',
+HELP_3_Desc_3               : 'Navigate to the wallet.hyperdapp.org "View Wallet Info" page.',
 HELP_3_Desc_4               : 'Select your wallet file -or- your private key and unlock your wallet.',
 HELP_3_Desc_5               : 'If the wallet is encrypted, a text box will automatically appear. Enter the password.',
 HELP_3_Desc_6               : 'Click the "Unlock Wallet" button.',
@@ -660,7 +660,7 @@ HELP_4_Desc_10              : 'A couple more fields will appear. This is your br
 HELP_4_Desc_11              : 'Click the blue "Send Transaction" button below that.',
 HELP_4_Desc_12              : 'A pop-up will appear. Verify that the amount and the address you are sending to are correct. Then click "Yes, I am sure! Make transaction." button.',
 HELP_4_Desc_13              : 'The transaction will be submitted. The TX Hash will display. You can click that TX Hash to see it on the blockchain.',
-HELP_4CX_Title              : '4) How do I send Ether using MyEtherWallet CX?',
+HELP_4CX_Title              : '4) How do I send Ether using Wallet CX?',
 HELP_4CX_Desc_1             : 'First, you need to add a wallet. Once you have done that, you have 2 options: the "QuickSend" functionality from the Chrome Extension icon or the "Ether送出 トークン送出" page.',
 HELP_4CX_Desc_2             : 'QuickSend:',
 HELP_4CX_Desc_3             : 'Click the Chrome Extension Icon.',
@@ -673,11 +673,11 @@ HELP_4CX_Desc_9             : 'Verify the address and the amount you are sending
 HELP_4CX_Desc_10            : 'Enter the password for that wallet.',
 HELP_4CX_Desc_11            : 'Click "Send Transaction."',
 HELP_4CX_Desc_12            : 'Using "Ether送出 トークン送出" Page',
-HELP_5_Title                : '5) How do I run MyEtherWallet.com offline/locally?',
-HELP_5_Desc_1               : 'You can run MyEtherWallet.com on your computer instead of from the GitHub servers. You can generate a wallet completely offline and send transactions from the "Offline Transaction" page.',
-HELP_5_Desc_7               : 'MyEtherWallet.com is now running entirely on your computer.',
-HELP_5_Desc_8               : 'In case you are not familiar, you need to keep the entire folder in order to run the website, not just `index.html`. Don\'t touch or move anything around in the folder. If you are storing a backup of the MyEtherWallet repo for the future, we recommend just storing the ZIP so you can be sure the folder contents stay intact.',
-HELP_5_Desc_9               : 'As we are constantly updating MyEtherWallet.com, we recommend you periodically update your saved version of the repo.',
+HELP_5_Title                : '5) How do I run wallet.hyperdapp.org offline/locally?',
+HELP_5_Desc_1               : 'You can run wallet.hyperdapp.org on your computer instead of from the GitHub servers. You can generate a wallet completely offline and send transactions from the "Offline Transaction" page.',
+HELP_5_Desc_7               : 'wallet.hyperdapp.org is now running entirely on your computer.',
+HELP_5_Desc_8               : 'In case you are not familiar, you need to keep the entire folder in order to run the website, not just `index.html`. Don\'t touch or move anything around in the folder. If you are storing a backup of the Wallet repo for the future, we recommend just storing the ZIP so you can be sure the folder contents stay intact.',
+HELP_5_Desc_9               : 'As we are constantly updating wallet.hyperdapp.org, we recommend you periodically update your saved version of the repo.',
 HELP_5CX_Title              : '5) How can I install this extension from the repo instead of the Chrome Store?',
 HELP_5CX_Desc_2             : 'Click on `chrome-extension-vX.X.X.X.zip` and unzip it.',
 HELP_5CX_Desc_3             : 'Go to Google Chrome and find you settings (in the menu in the upper right).',
@@ -704,14 +704,14 @@ HELP_7_Desc_13              : 'Click the blue "Send Transaction" button below th
 HELP_7_Desc_14              : 'A pop-up will appear. Verify that the amount and the address you are sending to are correct. Then click "Yes, I am sure! Make transaction." button.',
 HELP_7_Desc_15              : 'The transaction will be submitted. The TX Hash will display. You can click that TX Hash to see it on the blockchain.',
 HELP_8_Title                : '8) What happens if your site goes down?',
-HELP_8_Desc_1               : 'MyEtherWallet is not a web wallet. You don\'t have a login and nothing ever gets saved to our servers. It is simply an interface that allows you interact with the blockchain.',
-HELP_8_Desc_2               : 'If MyEtherWallet.com goes down, you would have to find another way (like geth or Ethereum Wallet / Mist) to do what we are doing. But you wouldn\'t have to "get" your Ether out of MyEtherWallet because it\'s not in MyEtherWallet. It\'s in whatever wallet your generated via our site.',
+HELP_8_Desc_1               : 'Wallet is not a web wallet. You don\'t have a login and nothing ever gets saved to our servers. It is simply an interface that allows you interact with the blockchain.',
+HELP_8_Desc_2               : 'If wallet.hyperdapp.org goes down, you would have to find another way (like geth or Ethereum Wallet / Mist) to do what we are doing. But you wouldn\'t have to "get" your Ether out of Wallet because it\'s not in Wallet. It\'s in whatever wallet your generated via our site.',
 HELP_8_Desc_3               : 'You can import your unencrypted private key and your Geth/Mist Format (encrypted) files directly into geth / Ethereum Wallet / Mist very easily now. See question #12 below.',
-HELP_8_Desc_4               : 'In addition, the likelihood of us taking MyEtherWallet down is slim to none. It costs us almost nothing to maintain as we aren\'t storing any information. If we do take the domain down, it still is, and always will be, publicly available at [https://github.com/kvhnuke/etherwallet](https://github.com/kvhnuke/etherwallet/tree/gh-pages). You can download the ZIP there and run it locally.',
-HELP_8CX_Title              : '8) What happens if MyEtherWallet CX disappears?',
+HELP_8_Desc_4               : 'In addition, the likelihood of us taking Wallet down is slim to none. It costs us almost nothing to maintain as we aren\'t storing any information. If we do take the domain down, it still is, and always will be, publicly available at [https://github.com/kvhnuke/etherwallet](https://github.com/kvhnuke/etherwallet/tree/gh-pages). You can download the ZIP there and run it locally.',
+HELP_8CX_Title              : '8) What happens if Wallet CX disappears?',
 HELP_8CX_Desc_1             : 'First, all data is saved on your computer, not our servers. I know it can be confusing, but when you look at the Chrome Extension, you are NOT looking at stuff saved on our servers somewhere - it\'s all saved on your own computer.',
-HELP_8CX_Desc_2             : 'That said, it is **very important** that you back up all your information for any new wallets generated with MyEtherWallet CX. That way if anything happens to MyEtherWallet CX or your computer, you still have all the information necessary to access your Ether. See the #2a for how to back up your wallets.',
-HELP_8CX_Desc_3             : 'If for some reason MyEtherWallet CX disappears from the Chrome Store, you can find the source on Github and load it manually. See #5 above.',
+HELP_8CX_Desc_2             : 'That said, it is **very important** that you back up all your information for any new wallets generated with Wallet CX. That way if anything happens to Wallet CX or your computer, you still have all the information necessary to access your Ether. See the #2a for how to back up your wallets.',
+HELP_8CX_Desc_3             : 'If for some reason Wallet CX disappears from the Chrome Store, you can find the source on Github and load it manually. See #5 above.',
 HELP_9_Title                : '9) Is the "Ether送出 トークン送出" page offline?',
 HELP_9_Desc_1               : 'No. It needs the internet in order to get the current gas price, nonce of your account, and broadcast the transaction (aka "send"). However, it only sends the signed transaction. Your private key safely stays with you. We also now provide an "Offline Transaction" page so that you can ensure your private keys are on an offline/airgapped computer at all times.',
 HELP_10_Title               : '10) How do I make an offline transaction?',
@@ -726,8 +726,8 @@ HELP_10_Desc_8              : 'Select your wallet file -or- your private key and
 HELP_10_Desc_9              : 'Press the "GENERATE SIGNED TRANSACTION" button.',
 HELP_10_Desc_10             : 'The data field below this button will populate with your signed transaction. Copy this and move it back to your online computer.',
 HELP_10_Desc_11             : 'On your online computer, paste the signed transaction into the text field in step #3 and click send. This will broadcast your transaction.',
-HELP_12_Title               : '12) How do I import a wallet created with MyEtherWallet into geth / Ethereum Wallet / Mist?',
-HELP_12_Desc_1              : 'Using an Geth/Mist JSON file from MyEtherWallet v2+....',
+HELP_12_Title               : '12) How do I import a wallet created with Wallet into geth / Ethereum Wallet / Mist?',
+HELP_12_Desc_1              : 'Using an Geth/Mist JSON file from Wallet v2+....',
 HELP_12_Desc_2              : 'Go to the "View Wallet Info" page.',
 HELP_12_Desc_3              : 'Unlock your wallet using your **encrypted** private key or JSON file.',
 HELP_12_Desc_4              : 'Go to the "My Wallets" page.',
@@ -758,8 +758,8 @@ HELP_12_Desc_27             : 'After successful import, delete `nothing_special_
 HELP_12_Desc_28             : 'The next time you open the Ethereum Wallet application, your account will be listed under "Accounts".',
 HELP_13_Title               : '13) What does "Insufficient funds. Account you try to send transaction from does not have enough funds. Required XXXXXXXXXXXXXXXXXXX and got: XXXXXXXXXXXXXXXX." Mean?',
 HELP_13_Desc_1              : 'This means you do not have enough Ether in your account to cover the cost of gas. Each transaction (including token and contract transactions) require gas and that gas is paid in Ether. The number displayed is the amount required to cover the cost of the transaction in Wei. Take that number, divide by `1000000000000000000`, and subtract the amount of Ether you were trying to send (if you were attempting to send Ether). This will give you the amount of Ether you need to send to that account to make the transaction.',
-HELP_14_Title               : '14) Some sites randomize (seed) the private key generation via mouse movements. MyEtherWallet.com doesn\'t do this. Is the random number generation for MyEtherWallet safe?',
-HELP_14_Desc_1              : 'While the mouse moving thing is clever and we understand why people like it, the reality is window.crypto ensures more entropy than your mouse movements. The mouse movements aren\'t unsafe, it\'s just that we (and tons of other crypto experiments) believe in window.crypto. In addition, MyEtherWallet.com can be used on touch devices. Here\'s a [conversation between an angry redditor and Vitalik Buterin regarding mouse movements v. window.crypto](https://www.reddit.com/r/ethereum/comments/2bilqg/note_there_is_a_paranoid_highsecurity_way_to/cj5sgrm) and here is the [the window.crypto w3 spec](https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html#dfn-GlobalCrypto).',
+HELP_14_Title               : '14) Some sites randomize (seed) the private key generation via mouse movements. wallet.hyperdapp.org doesn\'t do this. Is the random number generation for Wallet safe?',
+HELP_14_Desc_1              : 'While the mouse moving thing is clever and we understand why people like it, the reality is window.crypto ensures more entropy than your mouse movements. The mouse movements aren\'t unsafe, it\'s just that we (and tons of other crypto experiments) believe in window.crypto. In addition, wallet.hyperdapp.org can be used on touch devices. Here\'s a [conversation between an angry redditor and Vitalik Buterin regarding mouse movements v. window.crypto](https://www.reddit.com/r/ethereum/comments/2bilqg/note_there_is_a_paranoid_highsecurity_way_to/cj5sgrm) and here is the [the window.crypto w3 spec](https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html#dfn-GlobalCrypto).',
 HELP_15_Title               : '15) Why hasn\'t the account I just created show up in the blockchain explorer? (ie: etherchain, etherscan)',
 HELP_15_Desc_1              : 'Accounts will only show up in a blockchain explorer once the account has activity on it&mdash;for example, once you have transferred some Ether to it.',
 HELP_16_Title               : '16) How do I check the balance of my account?',
@@ -781,23 +781,23 @@ HELP_21_Desc_6              : 'If you know anything about Bitcoin, [this will pu
 HELP_21_Desc_7              : '[If you want something a bit more technical:](http://security.stackexchange.com/questions/25375/why-not-use-larger-cipher-keys/25392#25392) *These numbers have nothing to do with the technology of the devices; they are the maximums that thermodynamics will allow. And they strongly imply that brute-force attacks against 256-bit keys will be infeasible until computers are built from something other than matter and occupy something other than space.',
 HELP_21_Desc_8              : 'Of course, this all assumes that keys are generated in a truly random way & with sufficient entropy. The keys generated here meet that criteria, as do Jaxx and Mist/geth. The Ethereum wallets are all pretty good. Keys generated by brainwallets do not, as a person\'s brain is not capable of creating a truly random seed. There have been a number of other issues regarding lack of entropy or seeds not being generated in a truly random way in Bitcoin-land, but that\'s a separate issue that can wait for another day.',
 HELP_Warning                : 'If you created a wallet -or- downloaded the repo before **Dec. 31st, 2015**, please check your wallets &amp; download a new version of the repo. Click for details.',
-HELP_Desc                   : 'Do you see something missing? Have another question? [Get in touch with us](mailto:support@myetherwallet.com), and we will not only answer your question, we will update this page to be more useful to people in the future!',
+HELP_Desc                   : 'Do you see something missing? Have another question? [Get in touch with us](mailto:support@wallet.hyperdapp.org), and we will not only answer your question, we will update this page to be more useful to people in the future!',
 HELP_Remind_Title           : 'Some reminders',
-HELP_Remind_Desc_1          : '**Ethereum, MyEtherWallet.com & MyEtherWallet CX, and some of the underlying Javascript libraries we use are under active development.** While we have thoroughly tested & tens of thousands of wallets have been successfully created by people all over the globe, there is always the remote possibility that something unexpected happens that causes your ETH to be lost. Please do not invest more than you are willing to lose, and please be careful. If something were to happen, we are sorry, but **we are not responsible for the lost Ether**.',
-HELP_Remind_Desc_2          : 'MyEtherWallet.com & MyEtherWallet CX are not "web wallets". You do not create an account or give us your Ether to hold onto. All data never leaves your computer/your browser. We make it easy for you to create, save, and access your information and interact with the blockchain.',
+HELP_Remind_Desc_1          : '**Ethereum, wallet.hyperdapp.org & Wallet CX, and some of the underlying Javascript libraries we use are under active development.** While we have thoroughly tested & tens of thousands of wallets have been successfully created by people all over the globe, there is always the remote possibility that something unexpected happens that causes your ETH to be lost. Please do not invest more than you are willing to lose, and please be careful. If something were to happen, we are sorry, but **we are not responsible for the lost Ether**.',
+HELP_Remind_Desc_2          : 'wallet.hyperdapp.org & Wallet CX are not "web wallets". You do not create an account or give us your Ether to hold onto. All data never leaves your computer/your browser. We make it easy for you to create, save, and access your information and interact with the blockchain.',
 HELP_Remind_Desc_3          : 'If you do not save your private key & password, there is no way to recover access to your wallet or the funds it holds.  Back them up in multiple physical locations &ndash; not just on your computer!',
-HELP_SecCX_Title            : 'セキュリティ - MyEtherWallet CX',
+HELP_SecCX_Title            : 'セキュリティ - Wallet CX',
 HELP_SecCX_Desc_1           : 'Where is this extension saving my information?',
 HELP_SecCX_Desc_2           : 'The information you store in this Chrome Extension is saved via [chrome.storage](http://chrome.storage/). - this is the same place your passwords are saved when you save your password in Chrome.',
 HELP_SecCX_Desc_3           : 'What information is saved?',
 HELP_SecCX_Desc_4           : 'The address, nickname, private key is stored in chrome.storage. The private key is encrypted using the password you set when you added the wallet. The nickname and wallet address is not encrypted.',
 HELP_SecCX_Desc_5           : 'Why aren\'t the nickname and wallet address encrypted?',
-HELP_SecCX_Desc_6           : 'If we were to encrypt these items, you would need to enter a password each time you wanted to view your account balance or view the nicknames. If this concerns you, we recommend you use MyEtherWallet.com instead of this Chrome Extension.',
+HELP_SecCX_Desc_6           : 'If we were to encrypt these items, you would need to enter a password each time you wanted to view your account balance or view the nicknames. If this concerns you, we recommend you use wallet.hyperdapp.org instead of this Chrome Extension.',
 HELP_Sec_Title              : 'セキュリティ',
 HELP_Sec_Desc_1             : 'If one of your first questions is "Why should I trust these people?", that is a good thing. Hopefully the following will help ease your fears.',
 HELP_Sec_Desc_2             : 'We\'ve been up and running since August 2015. If you search for ["myetherwallet" on reddit](https://www.reddit.com/search?q=myetherwallet), you can see numerous people who use us with great success.',
 HELP_Sec_Desc_3             : 'We aren\'t going to take your money or steal your private key(s). There is no malicious code on this site. In fact the "GENERATE WALLET" pages are completely client-side. That means that all the code is executed on ** your computer** and it is never saved and transmitted anywhere.',
-HELP_Sec_Desc_4             : 'Check the URL -- This site is being served through GitHub and you can see the source code here: [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) to [https://www.myetherwallet.com](https://www.myetherwallet.com).',
+HELP_Sec_Desc_4             : 'Check the URL -- This site is being served through GitHub and you can see the source code here: [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) to [https://www.wallet.hyperdapp.org](https://www.wallet.hyperdapp.org).',
 HELP_Sec_Desc_5             : 'For generating wallets, you can download the [source code and run it locally](https://github.com/kvhnuke/etherwallet/releases/latest). See #5 above.',
 HELP_Sec_Desc_6             : 'Generate a test wallet and check and see what network activity is happening. The easiest way for you to do this is to right click on the page and click "inspect element". Go to the "Network" tab. Generate a test wallet. You will see there is no network activity. You may see something happening that looks like data:image/gif and data:image/png. Those are the QR codes being generated...on your computer...by your computer. No bytes were transferred.',
 HELP_Sec_Desc_8             : 'If you do not feel comfortable using this tool, then by all means, do not use it. We created this tool as a helpful way for people to generate wallets and make transactions without needing to dive into command line or run a full node. Again, feel free to reach out if you have concerns and we will respond as quickly as possible. Thanks!',

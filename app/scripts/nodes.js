@@ -29,6 +29,7 @@ nodes.nodeTypes = {
   WEB: "WEB",
 	MIX: "MIX",
 	ETM: "ETM",
+	THE:"THEOS"
 	Custom: "CUSTOM ETH"
 };
 nodes.ensNodeTypes = [nodes.nodeTypes.ETH, nodes.nodeTypes.Ropsten];
@@ -47,19 +48,32 @@ nodes.customNodeObj = {
 	lib: null
 };
 nodes.nodeList = {
+	rin_ethscan: {
+		name: "Rinkeby - web3",
+		type: nodes.nodeTypes.Rinkeby,
+		blockExplorerTX: "https://rinkeby.etherscan.io/tx/[[txHash]]",
+		blockExplorerAddr: "https://rinkeby.etherscan.io/address/[[address]]",
+		eip155: true,
+		chainId: 4,
+		tokenList: require("./tokens/rinkebyTokens.json"),
+		abiList: require("./abiDefinitions/rinkebyAbi.json"),
+		service: "etherscan.io",
+		lib: require("./nodeHelpers/etherscanRin")
+	},
 	eth_tim: {
-		name: "ETM",
+		name: "Theos - web4",
 		blockExplorerTX: "https://wallet.hyperdapp.org/tx/[[txHash]]",
 		blockExplorerAddr: "https://wallet.hyperdapp.org/address/[[address]]",
-		type: nodes.nodeTypes.ETH,
+		type: nodes.nodeTypes.THE,
 		eip155: true,
 		chainId: 1,
 		tokenList: require("./tokens/ethTokens.json"),
 		abiList: require("./abiDefinitions/ethAbi.json"),
 		service: "wallet.hyperdapp.org",
 		lib: new nodes.customNode("https://wallet.hyperdapp.org/eth", "")
-	},
-	/*eth_mew: {
+	}/*,
+
+	eth_mew: {
 		name: "ETH",
 		blockExplorerTX: "https://etherscan.io/tx/[[txHash]]",
 		blockExplorerAddr: "https://etherscan.io/address/[[address]]",
@@ -68,8 +82,8 @@ nodes.nodeList = {
 		chainId: 1,
 		tokenList: require("./tokens/ethTokens.json"),
 		abiList: require("./abiDefinitions/ethAbi.json"),
-		service: "myetherwallet.com",
-		lib: new nodes.customNode("https://api.myetherwallet.com/eth", "")
+		service: "wallet.hyperdapp.org",
+		lib: new nodes.customNode("https://api.wallet.hyperdapp.org/eth", "")
 	},
 	eth_ethscan: {
 		name: "ETH",
@@ -176,8 +190,8 @@ nodes.nodeList = {
 		chainId: 3,
 		tokenList: require("./tokens/ropstenTokens.json"),
 		abiList: require("./abiDefinitions/ropstenAbi.json"),
-		service: "myetherwallet.com",
-		lib: new nodes.customNode("https://api.myetherwallet.com/rop", "")
+		service: "wallet.hyperdapp.org",
+		lib: new nodes.customNode("https://api.wallet.hyperdapp.org/rop", "")
 	},
 	rop_infura: {
 		name: "Ropsten",

@@ -219,7 +219,7 @@
 - Connect Beta [#1966](https://github.com/kvhnuke/etherwallet/pull/1966)
 - Add EXY token [#1981](https://github.com/kvhnuke/etherwallet/pull/1981)
 - Add EDR token [#1977](https://github.com/kvhnuke/etherwallet/pull/1977)
-- Add HUR and ODEM tokens, remove inactive tokens. [See list here](https://github.com/MyEtherWallet/ethereum-lists/pull/764) [#1974](https://github.com/kvhnuke/etherwallet/pull/1974)
+- Add HUR and ODEM tokens, remove inactive tokens. [See list here](https://github.com/Wallet/ethereum-lists/pull/764) [#1974](https://github.com/kvhnuke/etherwallet/pull/1974)
 - Add IST34 and NUG tokens [#1973](https://github.com/kvhnuke/etherwallet/pull/1973)
 - Add CRGO and TICO token, add Havven ABI [#1972](https://github.com/kvhnuke/etherwallet/pull/1972)
 - Add Kyber and MEW token contracts [#1971](https://github.com/kvhnuke/etherwallet/pull/1971)

@@ -19,12 +19,12 @@
 
       <p>
         <span translate="FOOTER_1">
-          Free, open-source, client-side interface for generating Theos wallets &amp; more. Interact with the Theos blockchain easily &amp; securely. Double-check the URL ( myetherwallet.com ) before unlocking your wallet.
+          Free, open-source, client-side interface for generating Theos wallets &amp; more. Interact with the Theos blockchain easily &amp; securely. Double-check the URL ( wallet.hyperdapp.org ) before unlocking your wallet.
         </span>
       </p>
 
       <p>
-        <a aria-label="knowledge base" href="https://kb.myetherwallet.com/" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+        <a aria-label="knowledge base" href="https://kb.wallet.hyperdapp.org/" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
           Knowledge Base
         </a>
       </p>
@@ -55,12 +55,12 @@
         <p>Consider using our affiliate links to...</p>
         <div class="footer__pill-wrap">
           <a class="footer__pill"  aria-label="Swap Ether or Bitcoin via Bity.com" href="https://bity.com/af/jshkb37v" target="_blank" rel="noopener noreferrer">Swap ETH/BTC/EUR/CHF via Bity.com</a>
-          <a class="footer__pill"  aria-label="Buy Ether with credit card via Simplex" href="https://ccswap.myetherwallet.com" target="_blank" rel="noopener noreferrer">Buy ETH with credit card via Simplex</a>
+          <a class="footer__pill"  aria-label="Buy Ether with credit card via Simplex" href="https://ccswap.wallet.hyperdapp.org" target="_blank" rel="noopener noreferrer">Buy ETH with credit card via Simplex</a>
        </div>
         <p> Buy a... </p>
         <div class="footer__pill-wrap footer__pill-custom-wrap">
           <a class="footer__pill" href="https://www.ledger.com/products/ledger-nano-s?r=fa4b" target="_blank" rel="noopener">Ledger Wallet</a>
-          <a class="footer__pill" href="https://trezor.io/?a=myetherwallet.com" target="_blank" rel="noopener">TREZOR</a>
+          <a class="footer__pill" href="https://trezor.io/?a=wallet.hyperdapp.org" target="_blank" rel="noopener">TREZOR</a>
           <a class="footer__pill" href="http://shiftcrypto.ositracker.com/91316/7114" target="_blank" rel="noopener">Digital Bitbox</a>
           <a class="footer__pill" href="https://ether.cards/?utm_source=mew&utm_medium=cpm&utm_campaign=site" target="_blank" rel="noopener">ether.card</a>
           <a class="footer__pill" href="https://thehodlwallet.com?aff=15" target="_blank" rel="noopener">HODL Wallet</a>

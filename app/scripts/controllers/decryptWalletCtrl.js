@@ -448,7 +448,7 @@ var decryptWalletCtrl = function($scope, $sce, walletService) {
     $scope.wallet = null;
     try {
       if ($scope.showPDecrypt && $scope.requirePPass) {
-        $scope.wallet = Wallet.fromMyEtherWalletKey(
+        $scope.wallet = Wallet.fromWalletKey(
           $scope.manualprivkey,
           $scope.privPassword
         );
