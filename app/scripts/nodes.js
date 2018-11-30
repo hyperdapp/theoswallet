@@ -28,6 +28,7 @@ nodes.nodeTypes = {
 	ILT: "ILT",
   WEB: "WEB",
 	MIX: "MIX",
+	ETM: "ETM",
 	Custom: "CUSTOM ETH"
 };
 nodes.ensNodeTypes = [nodes.nodeTypes.ETH, nodes.nodeTypes.Ropsten];
@@ -46,7 +47,19 @@ nodes.customNodeObj = {
 	lib: null
 };
 nodes.nodeList = {
-	eth_mew: {
+	eth_tim: {
+		name: "ETM",
+		blockExplorerTX: "https://wallet.hyperdapp.org/tx/[[txHash]]",
+		blockExplorerAddr: "https://wallet.hyperdapp.org/address/[[address]]",
+		type: nodes.nodeTypes.ETH,
+		eip155: true,
+		chainId: 1,
+		tokenList: require("./tokens/ethTokens.json"),
+		abiList: require("./abiDefinitions/ethAbi.json"),
+		service: "wallet.hyperdapp.org",
+		lib: new nodes.customNode("https://wallet.hyperdapp.org/eth", "")
+	},
+	/*eth_mew: {
 		name: "ETH",
 		blockExplorerTX: "https://etherscan.io/tx/[[txHash]]",
 		blockExplorerAddr: "https://etherscan.io/address/[[address]]",
@@ -484,7 +497,7 @@ nodes.nodeList = {
 		estimateGas: true,
 		service: "mix-blockchain.org",
 		lib: new nodes.customNode("https://rpc2.mix-blockchain.org", "8647")
-	}
+	}*/
 };
 
 nodes.ethPrice = require("./nodeHelpers/ethPrice");
